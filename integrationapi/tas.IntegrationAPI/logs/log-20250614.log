@@ -1,0 +1,52 @@
+2025-06-14 19:05:00.622 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:05:00.673 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-06-14 19:05:00.674 +08:00 [INF] Quartz Scheduler created
+2025-06-14 19:05:00.675 +08:00 [INF] RAMJobStore initialized.
+2025-06-14 19:05:00.675 +08:00 [INF] Quartz Scheduler 3.13.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-06-14 19:05:00.676 +08:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-06-14 19:05:00.677 +08:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-06-14 19:05:00.678 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:05:01.319 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:05:01.321 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:05:01.345 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2025-06-14 19:05:01.388 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:05:01.389 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:05:01.392 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\tas.IntegrationAPI\wwwroot. Static files may be unavailable.
+2025-06-14 19:08:08.069 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:08:08.126 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-06-14 19:08:08.127 +08:00 [INF] Quartz Scheduler created
+2025-06-14 19:08:08.129 +08:00 [INF] RAMJobStore initialized.
+2025-06-14 19:08:08.129 +08:00 [INF] Quartz Scheduler 3.13.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-06-14 19:08:08.130 +08:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-06-14 19:08:08.131 +08:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-06-14 19:08:08.131 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:08:08.532 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:08:08.533 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:08:08.556 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2025-06-14 19:08:08.594 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:08:08.595 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:08:08.597 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\tas.IntegrationAPI\wwwroot. Static files may be unavailable.
+2025-06-14 19:52:00.829 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:52:00.884 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-06-14 19:52:00.885 +08:00 [INF] Quartz Scheduler created
+2025-06-14 19:52:00.885 +08:00 [INF] RAMJobStore initialized.
+2025-06-14 19:52:00.886 +08:00 [INF] Quartz Scheduler 3.13.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-06-14 19:52:00.887 +08:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-06-14 19:52:00.888 +08:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-06-14 19:52:00.889 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:52:01.296 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:52:01.298 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:52:01.321 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2025-06-14 19:52:01.360 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:52:01.360 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:52:01.364 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\tas.IntegrationAPI\wwwroot. Static files may be unavailable.
+2025-06-14 19:52:12.440 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-06-14 19:52:12.462 +08:00 [INF] JobFactory set to: Persistence.HostedService.JobHostedService+CustomQuartzJobFactory
+2025-06-14 19:52:14.541 +08:00 [ERR] HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmployeeEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Employee.cs:line 180
+2025-06-14 19:52:17.408 +08:00 [ERR] Failed to send batch 1/96
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Employee.cs:line 134
+2025-06-14 19:52:17.476 +08:00 [ERR] Response status code does not indicate success: 500 (Internal Server Error).

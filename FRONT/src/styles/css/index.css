@@ -1,0 +1,78 @@
+@import "font";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "power-styles";
+@import "layout";
+@import "dx.custom";
+@import "custom";
+
+@layer base {
+  html{
+    font-family: 'Roboto', sans-serif;
+  }
+  ul, ol {
+    list-style: revert;
+  }
+}
+
+@media print {
+  @page {
+    /* size: 310mm 397mm; */
+  }
+}
+
+@layer components {
+  .success-button {
+    @apply bg-success text-white hover:bg-[#40c88b] shadow-btn border border-success 
+    rounded-md disabled:bg-[#40c88b] disabled:border-[#40c88b] hover:border-[#40c88b] transition-all;
+  }
+  .primary-button {
+    @apply bg-[#e57200] text-white hover:bg-[#ff9225] shadow-btn border border-[#e57200] 
+    rounded-md disabled:bg-[#ebb37a] disabled:border-[#ebb37a] hover:border-[#ff9225] transition-all;
+  }
+
+  .default-button {
+    @apply bg-white text-black py-1 px-[13px] hover:bg-gray-50 hover:text-[#e57200] hover:border-[#e57200] shadow-btn border
+    disabled:hover:text-gray-700 disabled:text-gray-700 disabled:hover:border-[#e5e7eb] rounded-md disabled:bg-gray-100 transition-all;
+  }
+
+  .danger-button {
+    @apply bg-red-500 text-white hover:bg-red-400 shadow-btn border rounded-md disabled:bg-red-400 transition-all;
+  }
+
+  .edit-button {
+    @apply bg-[#d5f7f9] text-[#23adb9] hover:bg-cyan-200 rounded-md py-1 px-[13px] disabled:bg-[#c6e7e9] transition-all;
+  }
+  /* .edit-button {
+    @apply bg-[#e6eeff] text-[#3b7bf5] hover:bg-[#367bf6] hover:text-white rounded-md py-1 px-[13px] disabled:bg-[#f1f5f9] disabled:text-[#9baabd] transition-all;
+  } */
+
+  .dlt-button {
+    @apply bg-[#FFE2E5] text-[#F64E60] hover:bg-red-200 rounded-md py-1 px-[13px] disabled:bg-gray-100  transition-all;
+  }
+
+  /* .dlt-button {
+    @apply bg-[#fde4e1] text-[#e73c33] hover:bg-[#ea3d2e] hover:text-white rounded-md py-1 px-[13px] disabled:bg-[#f1f5f9] disabled:text-[#9baabd] transition-all;
+  } */
+
+  .dlt-button_lbl {
+    @apply bg-[#eeedf0] text-[#9baabd] rounded-md py-1 px-[13px] transition-all;
+  }
+
+  .dlt-button_lbl {
+    cursor: not-allowed;
+  }
+
+  .scs-button {
+    @apply bg-[#E6FFE3] text-[#5F8D4E] hover:bg-lime-200 rounded-md py-1 px-[13px] disabled:bg-lime-200 transition-all;
+  }
+  
+  .submenu-title {
+    @apply text-[13px] ;
+  }
+  /* .scs-button {
+    @apply bg-[#dcf6e2] text-[#30a650] hover:bg-[#2fa950] hover:text-white rounded-md py-1 px-[13px] disabled:bg-[#f1f5f9] disabled:text-[#9baabd] transition-all;
+  } */
+}

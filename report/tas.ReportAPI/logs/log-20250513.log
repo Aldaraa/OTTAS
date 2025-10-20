@@ -1,0 +1,29 @@
+2025-05-13 08:01:05.656 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\wwwroot. Static files may be unavailable.
+2025-05-13 08:17:39.746 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\wwwroot. Static files may be unavailable.
+2025-05-13 08:21:30.643 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\wwwroot. Static files may be unavailable.
+2025-05-13 08:27:16.829 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\wwwroot. Static files may be unavailable.
+2025-05-13 08:27:56.737 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Application.Common.Exceptions.BadRequestException: No data available for the report.
+   at Persistence.Repositories.JobExecuteServiceRepository.CreateBuildCommand(BuildReportRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.ReportAPI\Persistence\Repositories\JobExecuteServiceRepository.cs:line 1016
+   at Application.Features.ReportJobFeature.BuildReport.BuildReportHandler.Handle(BuildReportRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.ReportAPI\Application\Features\ReportJobFeature\BuildReport\BuildReportHandler.cs:line 28
+   at Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.ReportAPI\Application\Common\Behaviors\ValidatorBehavior.cs:line 39
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.ReportAPI.Controllers.ReportJobController.BuildReport(BuildReportRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\Controllers\ReportJobController.cs:line 190
+   at lambda_method38(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-13 08:57:19.920 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\wwwroot. Static files may be unavailable.
+2025-05-13 09:18:31.892 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\wwwroot. Static files may be unavailable.

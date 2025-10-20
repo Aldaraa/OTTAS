@@ -1,0 +1,126 @@
+2024-08-20 07:38:09.623 +08:00  ERR  FRACTAL\Davkharaa-------------------ENTERED----------------------
+2024-08-20 07:38:13.122 +08:00  ERR  FRACTAL\Davkharaa-------------------ENTERED----------------------
+2024-08-20 07:38:48.843 +08:00  ERR  FRACTAL\Davkharaa-------------------ENTERED----------------------
+2024-08-20 07:39:33.956 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: Employee has a scheduled trip on 8/19/2024 1:10:00 AM. Unable to reschedule transport. Please delete the existing daily trip first.
+   at tas.Persistence.Repositories.RequestSiteTravelRescheduleRepository.CompleteRequestDocumentSiteTravelReschedule(CompleteRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\RequestSiteTravelRescheduleRepository.cs:line 719
+   at tas.Application.Features.RequestDocumentFeature.CompleteRequestDocumentSiteTravelReschedule.CompleteRequestDocumentSiteTravelRescheduleHandler.Handle(CompleteRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Features\RequestDocumentFeature\CompleteRequestDocumentSiteTravelReschedule\CompleteRequestDocumentSiteTravelRescheduleHandler.cs:line 34
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 39
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.RequestSiteTravelController.CompleteReschedule(Int32 documentId, String comment, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.WebAPI\Controllers\Tas\RequestSiteTravelController.cs:line 129
+   at lambda_method3251(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2024-08-20 07:42:34.420 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: The 'IN' schedule's departure or arrival time cannot be after the 'OUT' schedule's departure or arrival time on the same day. Please correct the schedule times.
+   at tas.Persistence.Repositories.TransportCheckerRepository.TransportAddValidDirectionSequenceCheck(Int32 employeeId, Int32 INScheduleId, Int32 outScheduleData) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\TransportCheckerRepository.cs:line 96
+   at tas.Application.Features.TransportFeature.AddTravelTransport.AddTravelTransportHandler.Handle(AddTravelTransportRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Features\TransportFeature\AddTravelTransport\AddTravelTransportHandler.cs:line 28
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 24
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.TransportController.AddTravel(AddTravelTransportRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.WebAPI\Controllers\Tas\TransportController.cs:line 74
+   at lambda_method3722(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2024-08-20 07:43:58.859 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: Employee has a scheduled trip on 8/20/2024 1:00:00 AM. Unable to reschedule transport. Please delete the existing daily trip first.
+   at tas.Persistence.Repositories.TransportCheckerRepository.TransportRescheduleValidDirectionSequenceCheck(Int32 oldtransportId, Int32 scheduleId) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\TransportCheckerRepository.cs:line 196
+   at tas.Persistence.Repositories.RequestSiteTravelRescheduleRepository.ValidateSiteTravelRescheduleCheck(CreateRequestDocumentSiteTravelRescheduleRequest request) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\RequestSiteTravelRescheduleRepository.cs:line 170
+   at tas.Persistence.Repositories.RequestSiteTravelRescheduleRepository.CreateRequestDocumentSiteTravelReschedule(CreateRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\RequestSiteTravelRescheduleRepository.cs:line 54
+   at tas.Application.Features.RequestDocumentFeature.CreateRequestDocumentSiteTravelReschedule.CreateRequestDocumentSiteTravelRescheduleHandler.Handle(CreateRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Features\RequestDocumentFeature\CreateRequestDocumentSiteTravelReschedule\CreateRequestDocumentSiteTravelRescheduleHandler.cs:line 39
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 39
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.RequestSiteTravelController.CreateReschedule(CreateRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.WebAPI\Controllers\Tas\RequestSiteTravelController.cs:line 99
+   at lambda_method4431(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2024-08-20 07:46:04.372 +08:00  ERR  FRACTAL\Davkharaa-------------------ENTERED----------------------
+2024-08-20 07:51:55.016 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: Employee has a scheduled trip on 8/20/2024 1:00:00 AM. Unable to reschedule transport. Please delete the existing daily trip first.
+   at tas.Persistence.Repositories.TransportCheckerRepository.TransportRescheduleValidDirectionSequenceCheck(Int32 oldtransportId, Int32 scheduleId) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\TransportCheckerRepository.cs:line 196
+   at tas.Persistence.Repositories.RequestSiteTravelRescheduleRepository.ValidateSiteTravelRescheduleCheck(CreateRequestDocumentSiteTravelRescheduleRequest request) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\RequestSiteTravelRescheduleRepository.cs:line 235
+   at tas.Persistence.Repositories.RequestSiteTravelRescheduleRepository.CreateRequestDocumentSiteTravelReschedule(CreateRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\RequestSiteTravelRescheduleRepository.cs:line 54
+   at tas.Application.Features.RequestDocumentFeature.CreateRequestDocumentSiteTravelReschedule.CreateRequestDocumentSiteTravelRescheduleHandler.Handle(CreateRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Features\RequestDocumentFeature\CreateRequestDocumentSiteTravelReschedule\CreateRequestDocumentSiteTravelRescheduleHandler.cs:line 39
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 39
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.RequestSiteTravelController.CreateReschedule(CreateRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.WebAPI\Controllers\Tas\RequestSiteTravelController.cs:line 99
+   at lambda_method1206(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2024-08-20 07:54:35.698 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: Updating this record would result in an invalid direction sequence.
+   at tas.Persistence.Repositories.TransportCheckerRepository.TransportUpdateValidDirectionSequenceCheckForRequest(Int32 oldScheduleId, Int32 scheduleId, Int32 employeeId) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\TransportCheckerRepository.cs:line 488
+   at tas.Application.Features.RequestDocumentFeature.CreateRequestDocumentSiteTravelReschedule.CreateRequestDocumentSiteTravelRescheduleHandler.Handle(CreateRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Features\RequestDocumentFeature\CreateRequestDocumentSiteTravelReschedule\CreateRequestDocumentSiteTravelRescheduleHandler.cs:line 35
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 39
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.RequestSiteTravelController.CreateReschedule(CreateRequestDocumentSiteTravelRescheduleRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.WebAPI\Controllers\Tas\RequestSiteTravelController.cs:line 99
+   at lambda_method1263(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2024-08-20 07:56:03.051 +08:00  ERR  FRACTAL\Davkharaa-------------------ENTERED----------------------
+2024-08-20 07:56:13.575 +08:00  ERR  FRACTAL\Davkharaa-------------------ENTERED----------------------
+2024-08-20 07:57:51.352 +08:00  ERR  FRACTAL\Davkharaa-------------------ENTERED----------------------

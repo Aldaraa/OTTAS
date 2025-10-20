@@ -1,0 +1,123 @@
+2025-04-21 07:17:25.934 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 07:19:25.463 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 07:19:56.835 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 07:21:44.810 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 07:43:05.145 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 07:47:07.396 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: No such host is known. (http:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Persistence.Repositories.HotDeskRepository.SendEmployeeInfoEmptyData() in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 188
+2025-04-21 07:47:10.823 +08:00  ERR  Failed to send batch 1/25System.Net.Http.HttpRequestException: No such host is known. (http:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 160
+
+2025-04-21 07:47:10.883 +08:00  ERR  Job DEFAULT.TASINTEGRATION_JOB_7b9f8e97-0309-438e-a0d7-925de2b45723 threw an unhandled Exception: System.Net.Http.HttpRequestException: No such host is known. (http:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 160
+   at Persistence.HostedService.JobHostedService.HotDeskJob.Execute(IJobExecutionContext context) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\HostedService\JobHostedService.cs:line 268
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+
+2025-04-21 07:47:10.890 +08:00  ERR  Job DEFAULT.TASINTEGRATION_JOB_7b9f8e97-0309-438e-a0d7-925de2b45723 threw an exception.Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.Net.Http.HttpRequestException: No such host is known. (http:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 160
+   at Persistence.HostedService.JobHostedService.HotDeskJob.Execute(IJobExecutionContext context) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\HostedService\JobHostedService.cs:line 268
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.Net.Http.HttpRequestException: No such host is known. (http:80)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 160
+   at Persistence.HostedService.JobHostedService.HotDeskJob.Execute(IJobExecutionContext context) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\HostedService\JobHostedService.cs:line 268
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+
+2025-04-21 07:48:20.863 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmployeeInfoEmptyData() in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 189
+2025-04-21 07:48:21.986 +08:00  ERR  Failed to send batch 1/25System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 161
+
+2025-04-21 07:48:22.045 +08:00  ERR  Response status code does not indicate success: 401 (Unauthorized).
+2025-04-21 07:56:22.611 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmployeeInfoEmptyData() in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 201
+2025-04-21 07:57:22.676 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmployeeInfoEmptyData() in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 201
+2025-04-21 08:10:39.472 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmployeeInfoEmptyData() in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 208
+2025-04-21 08:11:33.865 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 08:11:47.019 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 09:33:43.977 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 09:44:00.401 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 09:48:35.386 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-21 10:04:03.170 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}

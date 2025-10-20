@@ -1,0 +1,16 @@
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\bin\Debug\net8.0\tas.Application.deps.json
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\bin\Debug\net8.0\tas.Application.dll
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\bin\Debug\net8.0\tas.Application.pdb
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\bin\Debug\net8.0\tas.Domain.dll
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\bin\Debug\net8.0\tas.Domain.pdb
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Application.csproj.AssemblyReference.cache
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Application.AssemblyInfoInputs.cache
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Application.AssemblyInfo.cs
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Application.csproj.CoreCompileInputs.cache
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Application.sourcelink.json
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Appl.7AFEFA9E.Up2Date
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Application.dll
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\refint\tas.Application.dll
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\tas.Application.pdb
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\obj\Debug\net8.0\ref\tas.Application.dll

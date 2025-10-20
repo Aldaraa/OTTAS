@@ -1,0 +1,138 @@
+2025-05-29 10:38:04.668 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 10:38:30.936 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 10:38:36.989 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendDepartmentEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 105
+2025-05-29 10:38:37.036 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 10:38:37.109 +08:00  ERR  Response status code does not indicate success: 500 (Internal Server Error).
+2025-05-29 12:57:01.917 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendDepartmentEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 105
+2025-05-29 12:57:03.152 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 12:57:03.238 +08:00  ERR  Response status code does not indicate success: 500 (Internal Server Error).
+2025-05-29 12:59:32.512 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendDepartmentEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 105
+2025-05-29 12:59:33.361 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 12:59:33.410 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:00:53.185 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendDepartmentEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 105
+2025-05-29 13:00:54.039 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:00:54.105 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:05:31.345 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendDepartmentEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 109
+2025-05-29 13:05:32.233 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:05:32.304 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:21:36.201 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:21:37.231 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:21:37.312 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:21:47.247 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:21:47.292 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:21:47.354 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:22:31.968 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:22:32.013 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:22:32.082 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:23:08.324 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:23:13.986 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:23:14.048 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:24:05.582 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:24:05.609 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:24:05.672 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:24:08.436 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:24:08.467 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:24:08.528 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:27:04.764 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7121)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Persistence.Repositories.HotDeskRepository.SendDepartmentEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 104
+2025-05-29 13:27:09.703 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7121)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 59
+
+2025-05-29 13:27:09.787 +08:00  ERR  No connection could be made because the target machine actively refused it. (localhost:7121)
+2025-05-29 13:28:51.886 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:28:52.770 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:28:52.851 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 13:29:05.459 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:29:09.553 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 13:29:09.589 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 13:29:09.626 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 14:42:12.196 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 14:42:12.559 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.Department.cs:line 60
+
+2025-05-29 14:42:12.634 +08:00  ERR  Response status code does not indicate success: 404 (Not Found).
+2025-05-29 14:49:12.131 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 14:50:15.258 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-05-29 14:55:34.875 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}

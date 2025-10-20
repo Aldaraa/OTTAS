@@ -1,0 +1,3 @@
+2025-08-05 14:36:19.643 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\wwwroot. Static files may be unavailable.
+2025-08-05 14:37:12.625 +08:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-08-05 14:49:12.947 +08:00 [WRN] The WebRootPath was not found: D:\00 Fractal\Development\OT\V8\tas.ReportAPI\tas.ReportAPI\wwwroot. Static files may be unavailable.

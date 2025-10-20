@@ -1,0 +1,29 @@
+2024-10-14 10:15:43.389 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: This employee is inactive. Unable to act
+   at tas.Persistence.Repositories.EmployeeRepository.EmployeeActiveCheck(Int32 EmployeeId) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\EmployeeRepository.cs:line 1575
+   at tas.Persistence.Repositories.RequestDocumentRepository.DocumentEmployeeActiveCompleteAddTravelCheck(Int32 documentId) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\RequestDocumentRepository.cs:line 97
+   at tas.Application.Features.RequestDocumentFeature.CompleteRequestDocumentSiteTravelAdd.CompleteRequestDocumentSiteTravelHandler.Handle(CompleteRequestDocumentSiteTravelAddRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Features\RequestDocumentFeature\CompleteRequestDocumentSiteTravelAdd\CompleteRequestDocumentSiteTravelAddHandler.cs:line 36
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 39
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.RequestSiteTravelController.CompleteAdd(CompleteRequestDocumentSiteTravelAddRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.WebAPI\Controllers\Tas\RequestSiteTravelController.cs:line 76
+   at lambda_method1163(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2024-10-14 10:23:24.513 +08:00  ERR  Email sent successfully.System.Net.Mail.SmtpFailedRecipientException: Mailbox name not allowed. The server response was: 5.7.1 <123213@gmail.com>: Sender address rejected: not owned by user noreply@isa.edu.mn
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at tas.Application.Service.EmailSender.SendEmailAsync(EmailRequestDocumentModel model, EmailAuthModel autModel) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Service\EmailSender.cs:line 136

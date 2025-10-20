@@ -1,0 +1,17 @@
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\bin\Release\net6.0\tas.Persistence.deps.json
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\bin\Release\net6.0\tas.Persistence.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\bin\Release\net6.0\tas.Persistence.pdb
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\bin\Release\net6.0\tas.Application.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\bin\Release\net6.0\tas.Domain.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\bin\Release\net6.0\tas.Application.pdb
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\bin\Release\net6.0\tas.Domain.pdb
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\tas.Persistence.csproj.AssemblyReference.cache
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\tas.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\tas.Persistence.AssemblyInfoInputs.cache
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\tas.Persistence.AssemblyInfo.cs
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\tas.Persistence.csproj.CoreCompileInputs.cache
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\tas.Persistence.csproj.CopyComplete
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\tas.Persistence.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\refint\tas.Persistence.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\tas.Persistence.pdb
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Persistence\obj\Release\net6.0\ref\tas.Persistence.dll

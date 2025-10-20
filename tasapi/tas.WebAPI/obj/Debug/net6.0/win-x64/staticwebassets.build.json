@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hEKQ8tVqaRLYeX2NnbRIkSL5Xujqot7KhcXdXGseFTs=",
+  "Source": "tas.WebAPI",
+  "BasePath": "_content/tas.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

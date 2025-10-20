@@ -1,0 +1,234 @@
+Delivered-To: mdavkharbayar1@gmail.com
+Received: by 2002:a05:7000:2995:b0:5cd:790c:9c21 with SMTP id f21csp1066973max;
+        Fri, 18 Oct 2024 10:52:06 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEzOaoLDfrkZM7e4C8AVUg4FDAAX+RW/fpVWqT/dM+2Okm+nj5m4Oxrf7tjXvGRk3udCtQe
+X-Received: by 2002:ac8:5d03:0:b0:460:8e3b:6798 with SMTP id d75a77b69052e-460aecef00emr37362471cf.6.1729273925941;
+        Fri, 18 Oct 2024 10:52:05 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1729273925; cv=none;
+        d=google.com; s=arc-20240605;
+        b=KPODF0Nx562Y/GKf+taNfR4zS27TxRcDEyZSzy4lywrvXtkck77UsRuToXv7lC8ud5
+         OaEU0cmNW1Jg1pqzYhYR0KLIKjRBWqqfyk0pc74AcQAYYg/ByKaDJsgLgp/+JE2qZnll
+         nQxtsnJooN9+4zAFa31JnzT10MdMxkFCXoU2af0LfoDOfXO4UIohdbaz/+6gLN4x9x5+
+         Hf12UIyZiGtq+7IqxTpPeyGK2nDWEZ87CH6xjo7NUsFx00ESYPmKFkdzB/maKzdp1Wzd
+         qCdKWeye40mL6i7a5t24JfKzS4GI1IQN5PG/jXj80TvV6yfSExTfGd2UfrjCqxaMinKU
+         vZ1A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:mime-version:date:content-transfer-encoding:message-id
+         :subject:to:from:mailid:dkim-signature:dkim-signature;
+        bh=R3tIqqcsbCQ72giFXtY4a7ROQJWGEPnTs54pTwYBrNA=;
+        fh=mJply/4YcJnTQYjczElMNcTNXa58JNsF8rk7Awg11So=;
+        b=Hj2tU5RpzTgXM3vjoxHgqD05CtAFl748EWCg4GrWfpP5eU0Q4SI+9Mi/PAEtf2S9oM
+         3kT0O5IixVyUqJtQhDqgoG1y5/rYU6stY3UNe6tEJoPHSuyW6BZHELteYRO4F+tK8kX3
+         qkzWfjURQ3+qF+Lsd7ZVJMTpL4+vhF6sqgtQac9oaxLpHEfrQumkueLp3mUwe0OoDafy
+         f2icHpz8J74NyaQLtsvsGFwJwqC8M5DmiM2rBpt6Gx4Ps0Ya6pwyg0cj+sZUw2rdQbcU
+         FVx0U/PIV2YgVHIoqt42ga5Qhlbc6b0Qd8rUjIpPI03Qm43MaQFifCtfu7GuoqS71xoM
+         x2MQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@ot.mn header.s=xk3l6c7tzwi45tdx5efgd6dpr6gs2fox header.b=fv7ujMSP;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=rTPkEVeS;
+       spf=pass (google.com: domain of 01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000@amazonses.com designates 54.240.8.30 as permitted sender) smtp.mailfrom=01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000@amazonses.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=ot.mn
+Return-Path: <01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000@amazonses.com>
+Received: from a8-30.smtp-out.amazonses.com (a8-30.smtp-out.amazonses.com. [54.240.8.30])
+        by mx.google.com with ESMTPS id d75a77b69052e-460ae94191bsi21931031cf.153.2024.10.18.10.52.05
+        for <mdavkharbayar1@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 18 Oct 2024 10:52:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000@amazonses.com designates 54.240.8.30 as permitted sender) client-ip=54.240.8.30;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@ot.mn header.s=xk3l6c7tzwi45tdx5efgd6dpr6gs2fox header.b=fv7ujMSP;
+       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=rTPkEVeS;
+       spf=pass (google.com: domain of 01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000@amazonses.com designates 54.240.8.30 as permitted sender) smtp.mailfrom=01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000@amazonses.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=ot.mn
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=xk3l6c7tzwi45tdx5efgd6dpr6gs2fox; d=ot.mn; t=1729273925;
+	h=Content-Type:From:To:Subject:Message-ID:Content-Transfer-Encoding:Date:MIME-Version;
+	bh=WoHFex+sDtReJbQwGm8lMFN3bTplRMRqd6FWyd+T8JM=;
+	b=fv7ujMSPm6j7G2nSnXbbuToqHhXTU6lRL9gY86WncJDKGybbpFcPlcgKreoL6sRG
+	9K0A/Iz93enh38JO4Q+u3NyMF3R32bwUMf0GBYkXKoBJBGYsrSiN3x9A0DOEmnVWJ5g
+	xbkZGapQakPCHkSEUDhOIFrHfgVEdRybBzUECZE0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1729273925;
+	h=Content-Type:From:To:Subject:Message-ID:Content-Transfer-Encoding:Date:MIME-Version:Feedback-ID;
+	bh=WoHFex+sDtReJbQwGm8lMFN3bTplRMRqd6FWyd+T8JM=;
+	b=rTPkEVeSq0WTxeqOgBl7EwAdqHYnE22YQb2kautqagocCW3MxNoTm7KsgzZRlbPs
+	kvkmEvG8Hcv1apFNRnOhG/gwVwmjyDNdDLoxlnb8HnPI/3yqNvOz3bBfvZoEwukw9w4
+	tL8eNAJKVMrhc8NYU4GXJXmF04wZ3+JQaa9N/zMw=
+Content-Type: text/html; charset=utf-8
+Mailid: 0.4263712689736985
+From: OTOyusupport@ot.mn
+To: mdavkharbayar1@gmail.com
+Subject: =?UTF-8?B?RU9JIGV2ZW50IFN1cHBseSBvZiBXYXRlciBUcmVh?=
+ =?UTF-8?B?dG1lbnQgQ2hlbWljYWxzIC0g0q7QudC70LTQstGN?=
+ =?UTF-8?B?0YDQu9GN0LvQuNC50L0g0YPRgSDRhtGN0LLRjdGA?=
+ =?UTF-8?B?0LvRjdGFINGF0LjQvNC40LnQvSDQsdC+0LTQuNGB?=
+ =?UTF-8?B?INGF0LDQvdCz0LDQvSDQvdC40LnQu9Kv0q/Qu9GN?=
+ =?UTF-8?B?0YUg0YLRg9GF0LDQuSBoYXMgYmVlbiB1cGRhdGVk?=
+ =?UTF-8?B?LiAg0J7RjtGDINGC0L7Qu9Cz0L7QuSDQpdCl0Jot?=
+ =?UTF-8?B?0LjQudC9IFN1cHBseSBvZiBXYXRlciBUcmVhdG1l?=
+ =?UTF-8?B?bnQgQ2hlbWljYWxzIC0g0q7QudC70LTQstGN0YA=?=
+ =?UTF-8?B?0LvRjdC70LjQudC9INGD0YEg0YbRjdCy0Y3RgNC7?=
+ =?UTF-8?B?0Y3RhSDRhdC40LzQuNC50L0g0LHQvtC00LjRgSA=?=
+ =?UTF-8?B?0YXQsNC90LPQsNC9INC90LjQudC70q/Sr9C70Y0=?=
+ =?UTF-8?B?0YUg0YLRg9GF0LDQuSDQntGA0L7Qu9GG0L7RhSA=?=
+ =?UTF-8?B?0YHQvtC90LjRgNGF0LvQvtC+INC40LvRjdGA0YU=?=
+ =?UTF-8?B?0LjQudC70Y3RhSDRhdKv0YHRjdC70YLRjdC0INC9?=
+ =?UTF-8?B?0Y3QvNGN0LvRgiDTqdOp0YDRh9C706nQu9GCINC+?=
+ =?UTF-8?B?0YDQvtCyLiAgIA==?=
+Message-ID: <01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000@email.amazonses.com>
+Content-Transfer-Encoding: quoted-printable
+Date: Fri, 18 Oct 2024 17:52:05 +0000
+MIME-Version: 1.0
+Feedback-ID: ::1.us-east-1.d0tLWKcBewAZIi/RDk9Usq2V8SL7aMx7RzssUuU/oL0=:AmazonSES
+X-SES-Outgoing: 2024.10.18-54.240.8.30
+
+<!DOCTYPE html>
+<html>
+=09<head>
+=09=09<meta charset=3D"utf-8" />
+=09=09<style type=3D"text/css">
+=09=09=09img {
+=09=09=09=09max-width: 100%;
+=09=09=09}
+=09=09</style>
+=09</head>
+=09<body>
+=09=09<div id=3D"wrapper" style=3D"border:1px solid #d7d7d7;width:700px;pad=
+ding:30px 0;margin:0 auto;line-height: 18px;">
+=09=09=09<div style=3D"padding:0 50px 20px;overflow:hidden;border-bottom:2p=
+x solid #f47920;">
+=09=09=09=09<div style=3D"float:left;color: #b0b0b0;">
+
+=09=09=09=09</div>
+=09=09=09=09<div style=3D"float:right;">
+=09=09=09=09=09<img src=3D"http://ot.mn/static/sites/ot/default/images/logo=
+.png" alt=3D"Oyu tolgoi">
+=09=09=09=09</div>
+=09=09=09</div>
+=09=09=09<div style=3D"padding: 30px 50px;">
+=09=09=09=09<div id=3D"content" style=3D"text-align: justify;color: #000;">
+          <p>Dear Supplier,</p>
+
+<p>EOI event&nbsp;Supply of Water Treatment Chemicals - =D2=AE=D0=B9=D0=BB=
+=D0=B4=D0=B2=D1=8D=D1=80=D0=BB=D1=8D=D0=BB=D0=B8=D0=B9=D0=BD =D1=83=D1=81 =
+=D1=86=D1=8D=D0=B2=D1=8D=D1=80=D0=BB=D1=8D=D1=85 =D1=85=D0=B8=D0=BC=D0=B8=
+=D0=B9=D0=BD =D0=B1=D0=BE=D0=B4=D0=B8=D1=81 =D1=85=D0=B0=D0=BD=D0=B3=D0=B0=
+=D0=BD =D0=BD=D0=B8=D0=B9=D0=BB=D2=AF=D2=AF=D0=BB=D1=8D=D1=85 =D1=82=D1=83=
+=D1=85=D0=B0=D0=B9 has been updated.</p>
+
+<p>To view changes, please visit <a href=3D"https://vvmx96m3.r.us-east-1.aw=
+strack.me/L0/https:%2F%2Foyu-supplierdatabase.ot.mn%2F/1/01000192a0c20f4a-0=
+cb89717-7fa6-4fc0-83f5-1da4670564c6-000000/BP2ArzhafTd2hG-haPubehbCkJo=3D39=
+6">https://oyu-supplierdatabase.ot.mn/</a></p>
+
+<p>Thank you,</p>
+
+<p>Procurement Department<br />
+Oyu Tolgoi LLC</p>
+ <p>=D0=A5=D2=AF=D0=BD=D0=B4=D1=8D=D1=82 =D1=85=D0=B0=D0=BD=D0=B3=D0=B0=D0=
+=BD =D0=BD=D0=B8=D0=B9=D0=BB=D2=AF=D2=AF=D0=BB=D1=8D=D0=B3=D1=87 =D1=82=D0=
+=B0=D0=BD=D0=B0=D0=B0,&nbsp;</p>
+
+<p>=D0=9E=D1=8E=D1=83 =D1=82=D0=BE=D0=BB=D0=B3=D0=BE=D0=B9 =D0=A5=D0=A5=D0=
+=9A-=D0=B8=D0=B9=D0=BD Supply of Water Treatment Chemicals - =D2=AE=D0=B9=
+=D0=BB=D0=B4=D0=B2=D1=8D=D1=80=D0=BB=D1=8D=D0=BB=D0=B8=D0=B9=D0=BD =D1=83=
+=D1=81 =D1=86=D1=8D=D0=B2=D1=8D=D1=80=D0=BB=D1=8D=D1=85 =D1=85=D0=B8=D0=BC=
+=D0=B8=D0=B9=D0=BD =D0=B1=D0=BE=D0=B4=D0=B8=D1=81 =D1=85=D0=B0=D0=BD=D0=B3=
+=D0=B0=D0=BD =D0=BD=D0=B8=D0=B9=D0=BB=D2=AF=D2=AF=D0=BB=D1=8D=D1=85 =D1=82=
+=D1=83=D1=85=D0=B0=D0=B9 =D0=9E=D1=80=D0=BE=D0=BB=D1=86=D0=BE=D1=85 =D1=81=
+=D0=BE=D0=BD=D0=B8=D1=80=D1=85=D0=BB=D0=BE=D0=BE =D0=B8=D0=BB=D1=8D=D1=80=
+=D1=85=D0=B8=D0=B9=D0=BB=D1=8D=D1=85&nbsp;=D1=85=D2=AF=D1=81=D1=8D=D0=BB=D1=
+=82=D1=8D=D0=B4 =D0=BD=D1=8D=D0=BC=D1=8D=D0=BB=D1=82 =D3=A9=D3=A9=D1=80=D1=
+=87=D0=BB=D3=A9=D0=BB=D1=82 =D0=BE=D1=80=D0=BE=D0=B2. &nbsp;&nbsp;</p>
+
+<p>=D3=A8=D3=A9=D1=80=D1=87=D0=BB=D3=A9=D0=BB=D1=82=D0=B8=D0=B9=D0=BD =D1=
+=85=D0=B0=D1=80=D0=B0=D1=85=D1=8B=D0=BD =D1=82=D1=83=D0=BB=D0=B4 <a href=3D=
+"https://vvmx96m3.r.us-east-1.awstrack.me/L0/https:%2F%2Foyu-supplierdataba=
+se.ot.mn%2F/2/01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000/=
+thLCmEW7ef6B8xb9B64PR3SVRdQ=3D396">https://oyu-supplierdatabase.ot.mn/</a> =
+- =D1=81=D0=B8=D1=81=D1=82=D0=B5=D0=BC =D1=80=D2=AF=D2=AF =D3=A9=D3=A9=D1=
+=80=D0=B8=D0=B9=D0=BD =D1=8D=D1=80=D1=85=D1=8D=D1=8D=D1=80 =D0=BD=D1=8D=D0=
+=B2=D1=82=D1=8D=D1=80=D1=87 =D0=BE=D1=80=D0=BD=D0=BE =D1=83=D1=83.</p>
+
+<p>=D0=91=D0=B0=D1=8F=D1=80=D0=BB=D0=B0=D0=BB=D0=B0=D0=B0,</p>
+
+<p>=D0=A5=D1=83=D0=B4=D0=B0=D0=BB=D0=B4=D0=B0=D0=BD =D0=B0=D0=B2=D0=B0=D0=
+=BB=D1=82=D1=8B=D0=BD =D0=B3=D0=B0=D0=B7=D0=B0=D1=80<br />
+=D0=9E=D1=8E=D1=83 =D1=82=D0=BE=D0=BB=D0=B3=D0=BE=D0=B9 =D0=A5=D0=A5=D0=9A&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p><strong><a href=3D"http://vvmx96m3.r.us-east-1.awstrack.me/L0/http:%2F%2=
+Foyu-supplierdatabase.ot.mn%2Fapi%2Funsubscribe%2F%3Fiv=3D5f3f651aeee2d1740=
+6045905cbb74a00%26content=3D093c9479d01df629a932d018e2f9632a385fe5a3ae06c84=
+4/1/01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000/H501WqEErj=
+kp9dX_cGWw2PonPW0=3D396" style=3D"background:red;color:white;padding:5px 10=
+px;border-radius:5px">Unsubscribe Notifications!</a></strong></p>
+
+=09=09=09=09</div>
+=09=09=09</div>
+=09=09=09<div style=3D"overflow: hidden;">
+=09=09=09=09<div style =3D "border-bottom: 1px solid #d7d7d7; border-top: 1=
+px solid #d7d7d7; padding: 20px 50px; margin-bottom: 32px;">
+=09=09=09=09=09<p style=3D"font-size: 12px; color: #888">
+=09=09=09=09=09=09<strong>About Oyu Tolgoi LLC (ot.mn)</strong> Oyu Tolgoi =
+LLC, Mongolia&#39;s largest copper and gold mining company, is a strategic =
+partnership between the Government of Mongolia, Turquoise Hill Resources an=
+d Rio Tinto. Located in the South Gobi, Oyu Tolgoi commenced shipment of pr=
+oduct to customers in July 2013. Oyu Tolgoi is managed by Rio Tinto, which =
+is investing global expertise and cutting-edge technology to help develop M=
+ongolia=E2=80=99s mining industry and ensure Oyu Tolgoi is one of the world=
+=E2=80=99s most advanced mines. For Oyu Tolgoi, nothing matters more than s=
+afety. The business operates under the principle that if a job cannot be do=
+ne safely, it will not be done at all. For more information, connect with u=
+s:
+=09=09=09=09=09=09<br>
+=09=09=09=09=09=09<a href=3D"https://vvmx96m3.r.us-east-1.awstrack.me/L0/ht=
+tps:%2F%2Fwww.facebook.com%2Fotmongolia/1/01000192a0c20f4a-0cb89717-7fa6-4f=
+c0-83f5-1da4670564c6-000000/kGtrbmaYcOKdmr0TzWV8S7SgI6I=3D396" style=3D"col=
+or: #e37222;">www.facebook.com/OTMongolia</a><br>
+=09=09=09=09=09=09<a href=3D"https://vvmx96m3.r.us-east-1.awstrack.me/L0/ht=
+tps:%2F%2Fwww.twitter.com%2FOTMongolia/1/01000192a0c20f4a-0cb89717-7fa6-4fc=
+0-83f5-1da4670564c6-000000/lMqvmf8_vuZliqqkjOtGBjBxArk=3D396" style=3D"colo=
+r: #e37222;">www.twitter.com/OTMongolia</a>
+=09=09=09=09=09=09<br><br>
+=09=09=09=09=09=09<strong>For further information, please contact:</strong>=
+<br>
+=09=09=09=09=09=09Oyu supplier database<br>
+=09=09=09=09=09=09Phone: Tel:+976 1133 1880 (8888)(6000)<br>
+=09=09=09=09=09=09Email: <a href=3D"mailto:otoyusupport@ot.mn" style=3D"col=
+or: #e37222;">otoyusupport@ot.mn</a>
+=09=09=09=09=09</p>
+=09=09=09=09</div>
+=09=09=09=09<div style=3D"float:right;margin-right: 60px;padding-left:15px;=
+ border-left: 1px solid #f47920;">
+=09=09=09=09=09=E2=80=9COyu Tolgoi=E2=80=9D LLC
+=09=09=09=09=09<br>
+=09=09=09=09=09Monnis Tower
+=09=09=09=09=09<br>
+=09=09=09=09=09Chinggis Avenue 15
+=09=09=09=09=09<br>
+=09=09=09=09=09Sukhbaatar District
+=09=09=09=09=09<br>
+=09=09=09=09=09Ulaanbaatar 14240 Mongolia
+=09=09=09=09=09<br>
+=09=09=09=09=09Tel: + 11 331880
+=09=09=09=09=09<br>
+=09=09=09=09=09<a href=3D"http://vvmx96m3.r.us-east-1.awstrack.me/L0/http:%=
+2F%2Fwww.ot.mn/1/01000192a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-0000=
+00/aAk8o84w7VsNkRWxExWEmE656fw=3D396" target=3D"_blank" style=3D"color: #e3=
+7222;">www.ot.mn</a>
+=09=09=09=09=09<br>
+=09=09=09=09</div>
+=09=09=09</div>
+=09=09</div>
+=09=09<style media=3D"print">
+=09=09=09img {
+=09=09=09=09max-width: 100%;
+=09=09=09}
+=09=09</style>
+=09<img alt=3D"" src=3D"https://vvmx96m3.r.us-east-1.awstrack.me/I0/0100019=
+2a0c20f4a-0cb89717-7fa6-4fc0-83f5-1da4670564c6-000000/2F8SKf1tLdXLJKYS5_CBd=
+Quhi2A=3D396" style=3D"display: none; width: 1px; height: 1px;">
+</body>
+<html>

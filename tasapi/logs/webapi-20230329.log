@@ -1,0 +1,545 @@
+2023-03-29 17:10:00.943 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:10:01.100 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:10:01.102 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:10:01.102 +08:00  INF  Hosting environment: Development
+2023-03-29 17:10:01.102 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:10:01.566 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:10:01.788 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 225.3981ms
+2023-03-29 17:10:01.824 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:10:01.825 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:10:01.831 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 5.0138ms
+2023-03-29 17:10:01.848 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.1826ms
+2023-03-29 17:10:01.914 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:10:01.999 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.2543ms
+2023-03-29 17:10:04.826 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:10:04.831 +08:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Endpoint tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+
+2023-03-29 17:10:04.853 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 500 - application/json 26.5535ms
+2023-03-29 17:10:12.503 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/user - -
+2023-03-29 17:10:12.522 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.UserController.GetAll (tas.WebAPI)'
+2023-03-29 17:10:12.547 +08:00  INF  Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[tas.Application.Features.UserFeatures.GetAllUser.GetAllUserResponse]]] GetAll(System.Threading.CancellationToken) on controller tas.WebAPI.Controllers.UserController (tas.WebAPI).
+2023-03-29 17:10:13.218 +08:00  INF  Entity Framework Core 6.0.15 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.15' with options: None
+2023-03-29 17:10:13.771 +08:00  INF  Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[DateCreated], [u].[DateDeleted], [u].[DateUpdated], [u].[Email], [u].[Name]
+FROM [Users] AS [u]
+2023-03-29 17:10:13.881 +08:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[tas.Application.Features.UserFeatures.GetAllUser.GetAllUserResponse, tas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-29 17:10:13.888 +08:00  INF  Executed action tas.WebAPI.Controllers.UserController.GetAll (tas.WebAPI) in 1337.2574ms
+2023-03-29 17:10:13.890 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.UserController.GetAll (tas.WebAPI)'
+2023-03-29 17:10:13.896 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/user - - - 200 - application/json;+charset=utf-8 1393.0660ms
+2023-03-29 17:10:37.081 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:10:37.225 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:10:37.227 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:10:37.227 +08:00  INF  Hosting environment: Development
+2023-03-29 17:10:37.227 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:10:37.988 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:10:38.252 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 266.3069ms
+2023-03-29 17:10:38.286 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:10:38.287 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:10:38.293 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 5.9754ms
+2023-03-29 17:10:38.310 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.2779ms
+2023-03-29 17:10:38.381 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:10:38.465 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.5551ms
+2023-03-29 17:10:49.394 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:10:49.400 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 6.6170ms
+2023-03-29 17:10:51.044 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/swagger-ui.css - -
+2023-03-29 17:10:51.044 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/swagger-ui-bundle.js - -
+2023-03-29 17:10:51.091 +08:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-29 17:10:51.091 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/swagger-ui.css - - - 200 143632 text/css 47.3188ms
+2023-03-29 17:10:51.103 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/swagger-ui-standalone-preset.js - -
+2023-03-29 17:10:51.103 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:10:51.103 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:10:51.104 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 0.6674ms
+2023-03-29 17:10:51.111 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.9421ms
+2023-03-29 17:10:51.229 +08:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-29 17:10:51.229 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 126.0420ms
+2023-03-29 17:10:51.490 +08:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-29 17:10:51.496 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 452.2471ms
+2023-03-29 17:10:51.557 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/favicon-32x32.png - -
+2023-03-29 17:10:51.557 +08:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-03-29 17:10:51.557 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/favicon-32x32.png - - - 200 628 image/png 0.1893ms
+2023-03-29 17:10:51.606 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:10:51.607 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.1390ms
+2023-03-29 17:10:58.213 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:10:58.217 +08:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Endpoint tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+
+2023-03-29 17:10:58.239 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 500 - application/json 26.6890ms
+2023-03-29 17:15:49.787 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:15:49.954 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:15:49.956 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:15:49.956 +08:00  INF  Hosting environment: Development
+2023-03-29 17:15:49.956 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:15:50.763 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:15:51.028 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 267.6682ms
+2023-03-29 17:15:51.066 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:15:51.068 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:15:51.076 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 7.3649ms
+2023-03-29 17:15:51.091 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.6776ms
+2023-03-29 17:15:51.160 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:15:51.242 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.9239ms
+2023-03-29 17:15:54.210 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:15:54.215 +08:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Endpoint tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+
+2023-03-29 17:15:54.238 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 500 - application/json 27.6446ms
+2023-03-29 17:17:26.913 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:17:27.040 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:17:27.041 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:17:27.042 +08:00  INF  Hosting environment: Development
+2023-03-29 17:17:27.042 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:17:27.748 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:17:27.991 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 246.4720ms
+2023-03-29 17:17:28.033 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:17:28.034 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:17:28.040 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 5.8524ms
+2023-03-29 17:17:28.061 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.6656ms
+2023-03-29 17:17:28.125 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:17:28.227 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.0821ms
+2023-03-29 17:17:30.872 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:17:30.877 +08:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Endpoint tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+
+2023-03-29 17:17:30.901 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 500 - application/json 28.4355ms
+2023-03-29 17:18:33.632 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:18:33.751 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:18:33.753 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:18:33.753 +08:00  INF  Hosting environment: Development
+2023-03-29 17:18:33.753 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:18:34.663 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:18:34.892 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 231.5640ms
+2023-03-29 17:18:34.927 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:18:34.929 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:18:34.935 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 6.0870ms
+2023-03-29 17:18:34.953 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.1463ms
+2023-03-29 17:18:35.026 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:18:35.150 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.9400ms
+2023-03-29 17:18:37.545 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:18:37.549 +08:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Endpoint tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+
+2023-03-29 17:18:37.570 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 500 - application/json 25.7215ms
+2023-03-29 17:21:11.998 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:21:12.142 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:21:12.143 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:21:12.144 +08:00  INF  Hosting environment: Development
+2023-03-29 17:21:12.144 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:21:13.001 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:21:13.272 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 273.6234ms
+2023-03-29 17:21:13.307 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:21:13.309 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:21:13.316 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 7.3304ms
+2023-03-29 17:21:13.332 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.7204ms
+2023-03-29 17:21:13.396 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:21:13.478 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.2974ms
+2023-03-29 17:21:16.120 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:21:16.126 +08:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Endpoint tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+
+2023-03-29 17:21:16.148 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 500 - application/json 27.6130ms
+2023-03-29 17:21:26.283 +08:00  INF  Request starting HTTP/1.1 POST http://localhost:5171/api/Auth/loginadservice - 0
+2023-03-29 17:21:26.284 +08:00  INF  CORS policy execution successful.
+2023-03-29 17:21:26.285 +08:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Endpoint tas.WebAPI.Controllers.AuthController.login (tas.WebAPI) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.EvaluateAndApplyPolicy(HttpContext context, CorsPolicy corsPolicy)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.Invoke(HttpContext context)
+
+2023-03-29 17:21:26.286 +08:00  INF  Request finished HTTP/1.1 POST http://localhost:5171/api/Auth/loginadservice - 0 - 500 - application/json 2.9029ms
+2023-03-29 17:23:20.700 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:23:20.856 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:23:20.858 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:23:20.858 +08:00  INF  Hosting environment: Development
+2023-03-29 17:23:20.858 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:23:21.556 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:23:21.816 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 262.8848ms
+2023-03-29 17:23:21.856 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:23:21.857 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:23:21.865 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 7.3418ms
+2023-03-29 17:23:21.883 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.9327ms
+2023-03-29 17:23:21.964 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:23:22.090 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.4734ms
+2023-03-29 17:23:25.665 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:23:26.529 +08:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-29 17:23:26.533 +08:00  INF  AuthenticationScheme: Negotiate was challenged.
+2023-03-29 17:23:26.533 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 401 0 - 867.1843ms
+2023-03-29 17:23:26.542 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:23:26.557 +08:00  INF  Incomplete Negotiate handshake, sending an additional 401 Negotiate challenge.
+2023-03-29 17:23:26.557 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 401 0 - 14.4690ms
+2023-03-29 17:23:26.560 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:23:26.587 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI)'
+2023-03-29 17:23:26.599 +08:00  INF  Route matched with {action = "GetUserInfo", controller = "Auth"}. Executing controller action with signature System.Object GetUserInfo() on controller tas.WebAPI.Controllers.AuthController (tas.WebAPI).
+2023-03-29 17:23:26.604 +08:00  INF  Seri Log is Working
+2023-03-29 17:23:26.967 +08:00  INF  Executing ObjectResult, writing value of type 'tas.Domain.CustomModel.ADUser'.
+2023-03-29 17:23:26.981 +08:00  INF  Executed action tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) in 377.5709ms
+2023-03-29 17:23:26.983 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI)'
+2023-03-29 17:23:26.983 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 200 - application/json;+charset=utf-8 423.2908ms
+2023-03-29 17:23:50.742 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:23:50.891 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:23:50.893 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:23:50.893 +08:00  INF  Hosting environment: Development
+2023-03-29 17:23:50.893 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:23:51.654 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:23:51.903 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 251.6737ms
+2023-03-29 17:23:51.940 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:23:51.942 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:23:51.949 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 7.1032ms
+2023-03-29 17:23:51.967 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.8956ms
+2023-03-29 17:23:52.033 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:23:52.116 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.6503ms
+2023-03-29 17:25:01.033 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:25:01.151 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:25:01.152 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:25:01.152 +08:00  INF  Hosting environment: Development
+2023-03-29 17:25:01.153 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:25:02.132 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:25:02.531 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 401.9310ms
+2023-03-29 17:25:02.566 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:25:02.567 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:25:02.573 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 5.5635ms
+2023-03-29 17:25:02.589 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.1138ms
+2023-03-29 17:25:02.657 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:25:02.739 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.9181ms
+2023-03-29 17:25:05.359 +08:00  INF  Request starting HTTP/1.1 POST http://localhost:5171/api/Auth/loginadservice - 0
+2023-03-29 17:25:05.363 +08:00  INF  CORS policy execution successful.
+2023-03-29 17:25:05.430 +08:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-29 17:25:05.434 +08:00  INF  AuthenticationScheme: Negotiate was challenged.
+2023-03-29 17:25:05.434 +08:00  INF  Request finished HTTP/1.1 POST http://localhost:5171/api/Auth/loginadservice - 0 - 401 0 - 74.8811ms
+2023-03-29 17:25:05.435 +08:00  INF  Request starting HTTP/1.1 POST http://localhost:5171/api/Auth/loginadservice - 0
+2023-03-29 17:25:05.435 +08:00  INF  CORS policy execution successful.
+2023-03-29 17:25:05.447 +08:00  INF  Incomplete Negotiate handshake, sending an additional 401 Negotiate challenge.
+2023-03-29 17:25:05.447 +08:00  INF  Request finished HTTP/1.1 POST http://localhost:5171/api/Auth/loginadservice - 0 - 401 0 - 12.6341ms
+2023-03-29 17:25:05.448 +08:00  INF  Request starting HTTP/1.1 POST http://localhost:5171/api/Auth/loginadservice - 0
+2023-03-29 17:25:05.448 +08:00  INF  CORS policy execution successful.
+2023-03-29 17:25:05.456 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.AuthController.login (tas.WebAPI)'
+2023-03-29 17:25:05.473 +08:00  INF  Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] login() on controller tas.WebAPI.Controllers.AuthController (tas.WebAPI).
+2023-03-29 17:25:05.972 +08:00  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-29 17:25:05.976 +08:00  INF  Executed action tas.WebAPI.Controllers.AuthController.login (tas.WebAPI) in 499.4923ms
+2023-03-29 17:25:05.978 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.AuthController.login (tas.WebAPI)'
+2023-03-29 17:25:05.979 +08:00  INF  Request finished HTTP/1.1 POST http://localhost:5171/api/Auth/loginadservice - 0 - 200 - text/plain;+charset=utf-8 530.8651ms
+2023-03-29 17:25:09.922 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 17:25:09.923 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI)'
+2023-03-29 17:25:09.924 +08:00  INF  Route matched with {action = "GetUserInfo", controller = "Auth"}. Executing controller action with signature System.Object GetUserInfo() on controller tas.WebAPI.Controllers.AuthController (tas.WebAPI).
+2023-03-29 17:25:09.925 +08:00  INF  Seri Log is Working
+2023-03-29 17:25:09.949 +08:00  INF  Executing ObjectResult, writing value of type 'tas.Domain.CustomModel.ADUser'.
+2023-03-29 17:25:09.958 +08:00  INF  Executed action tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) in 34.1963ms
+2023-03-29 17:25:09.958 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI)'
+2023-03-29 17:25:09.958 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 200 - application/json;+charset=utf-8 36.3060ms
+2023-03-29 17:28:28.974 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 17:28:29.128 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 17:28:29.130 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:28:29.130 +08:00  INF  Hosting environment: Development
+2023-03-29 17:28:29.130 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 17:28:29.856 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 17:28:30.095 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 241.5486ms
+2023-03-29 17:28:30.129 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 17:28:30.131 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 17:28:30.132 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 2.7324ms
+2023-03-29 17:28:30.153 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.7625ms
+2023-03-29 17:28:30.216 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 17:28:30.299 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.7456ms
+2023-03-29 17:28:34.407 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - -
+2023-03-29 17:28:34.469 +08:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-29 17:28:34.473 +08:00  INF  AuthenticationScheme: Negotiate was challenged.
+2023-03-29 17:28:34.473 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - - - 401 0 - 66.8126ms
+2023-03-29 17:28:34.474 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - -
+2023-03-29 17:28:34.488 +08:00  INF  Incomplete Negotiate handshake, sending an additional 401 Negotiate challenge.
+2023-03-29 17:28:34.488 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - - - 401 0 - 14.2633ms
+2023-03-29 17:28:34.489 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - -
+2023-03-29 17:28:34.497 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.AuthController.login (tas.WebAPI)'
+2023-03-29 17:28:34.514 +08:00  INF  Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] login() on controller tas.WebAPI.Controllers.AuthController (tas.WebAPI).
+2023-03-29 17:28:34.812 +08:00  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-29 17:28:34.817 +08:00  INF  Executed action tas.WebAPI.Controllers.AuthController.login (tas.WebAPI) in 298.5759ms
+2023-03-29 17:28:34.819 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.AuthController.login (tas.WebAPI)'
+2023-03-29 17:28:34.819 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - - - 200 - text/plain;+charset=utf-8 329.9989ms
+2023-03-29 18:09:43.397 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 18:09:43.518 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 18:09:43.519 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 18:09:43.519 +08:00  INF  Hosting environment: Development
+2023-03-29 18:09:43.519 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 18:09:44.614 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 18:09:44.840 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 227.9137ms
+2023-03-29 18:09:44.877 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 18:09:44.879 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 18:09:44.881 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 3.6739ms
+2023-03-29 18:09:44.910 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.9959ms
+2023-03-29 18:09:44.976 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 18:09:45.076 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.3768ms
+2023-03-29 18:10:13.123 +08:00  INF  Request starting HTTP/1.1 POST http://localhost:5171/api/tas/CostCode application/json 97
+2023-03-29 18:10:13.127 +08:00  INF  CORS policy execution successful.
+2023-03-29 18:10:13.187 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI)'
+2023-03-29 18:10:13.212 +08:00  INF  Route matched with {action = "Create", controller = "CostCode"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeResponse]] Create(tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeRequest, System.Threading.CancellationToken) on controller tas.WebAPI.Controllers.Tas.CostCodeController (tas.WebAPI).
+2023-03-29 18:10:13.405 +08:00  INF  Executed action tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI) in 189.1313ms
+2023-03-29 18:10:13.408 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI)'
+2023-03-29 18:10:13.409 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: Multiple errors occurred. See error details.
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 37
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.CostCodeController.Create(CreateCostCodeRequest request, CancellationToken cancellationToken) in E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\Controllers\Tas\CostCodeController.cs:line 26
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-03-29 18:10:13.492 +08:00  INF  Request finished HTTP/1.1 POST http://localhost:5171/api/tas/CostCode application/json 97 - 400 - application/json 369.0906ms
+2023-03-29 18:11:24.308 +08:00  INF  Request starting HTTP/1.1 POST http://localhost:5171/api/tas/CostCode application/json 97
+2023-03-29 18:11:24.314 +08:00  INF  CORS policy execution successful.
+2023-03-29 18:11:24.315 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI)'
+2023-03-29 18:11:24.316 +08:00  INF  Route matched with {action = "Create", controller = "CostCode"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeResponse]] Create(tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeRequest, System.Threading.CancellationToken) on controller tas.WebAPI.Controllers.Tas.CostCodeController (tas.WebAPI).
+2023-03-29 18:11:24.356 +08:00  INF  Executed action tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI) in 38.5972ms
+2023-03-29 18:11:24.356 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI)'
+2023-03-29 18:11:24.357 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: Multiple errors occurred. See error details.
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 37
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.CostCodeController.Create(CreateCostCodeRequest request, CancellationToken cancellationToken) in E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\Controllers\Tas\CostCodeController.cs:line 26
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-03-29 18:11:24.358 +08:00  INF  Request finished HTTP/1.1 POST http://localhost:5171/api/tas/CostCode application/json 97 - 400 - application/json 49.1800ms
+2023-03-29 18:18:33.461 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 18:18:33.614 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 18:18:33.615 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 18:18:33.615 +08:00  INF  Hosting environment: Development
+2023-03-29 18:18:33.615 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 18:18:34.181 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 18:18:34.470 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 292.7729ms
+2023-03-29 18:18:34.508 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 18:18:34.510 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 18:18:34.518 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 7.6518ms
+2023-03-29 18:18:34.534 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.6799ms
+2023-03-29 18:18:34.593 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 18:18:34.671 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.5193ms
+2023-03-29 18:19:04.127 +08:00  INF  Request starting HTTP/1.1 POST http://localhost:5171/api/tas/CostCode application/json 99
+2023-03-29 18:19:04.131 +08:00  INF  CORS policy execution successful.
+2023-03-29 18:19:04.189 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI)'
+2023-03-29 18:19:04.215 +08:00  INF  Route matched with {action = "Create", controller = "CostCode"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeResponse]] Create(tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeRequest, System.Threading.CancellationToken) on controller tas.WebAPI.Controllers.Tas.CostCodeController (tas.WebAPI).
+2023-03-29 18:19:04.969 +08:00  INF  Entity Framework Core 6.0.15 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.15' with options: None
+2023-03-29 18:19:11.007 +08:00  ERR  Failed executing DbCommand (760ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 20), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [CostCodes] ([Active], [Code], [DateCreated], [DateDeleted], [DateUpdated], [Description], [Number])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [CostCodes]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-03-29 18:19:11.744 +08:00  ERR  An exception occurred in the database while saving changes for context type 'tas.Persistence.Context.DataContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CostCodes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e7a8c59f-88d1-4888-a414-8a4f150b60d2
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CostCodes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e7a8c59f-88d1-4888-a414-8a4f150b60d2
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2023-03-29 18:19:11.902 +08:00  INF  Executed action tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI) in 7682.3521ms
+2023-03-29 18:19:11.904 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI)'
+2023-03-29 18:19:11.906 +08:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'CostCodes'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e7a8c59f-88d1-4888-a414-8a4f150b60d2
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeHandler.Handle(CreateCostCodeRequest request, CancellationToken cancellationToken) in E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\Features\CostCodeFeature\CreateCostCode\CreateCostCodeHandler.cs:line 30
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 39
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.CostCodeController.Create(CreateCostCodeRequest request, CancellationToken cancellationToken) in E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\Controllers\Tas\CostCodeController.cs:line 26
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-03-29 18:19:11.951 +08:00  INF  Request finished HTTP/1.1 POST http://localhost:5171/api/tas/CostCode application/json 99 - 500 - application/json 7823.9065ms
+2023-03-29 18:19:49.162 +08:00  INF  Request starting HTTP/1.1 POST http://localhost:5171/api/tas/CostCode application/json 99
+2023-03-29 18:19:49.165 +08:00  INF  CORS policy execution successful.
+2023-03-29 18:19:49.165 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI)'
+2023-03-29 18:19:49.166 +08:00  INF  Route matched with {action = "Create", controller = "CostCode"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeResponse]] Create(tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeRequest, System.Threading.CancellationToken) on controller tas.WebAPI.Controllers.Tas.CostCodeController (tas.WebAPI).
+2023-03-29 18:19:49.197 +08:00  INF  Entity Framework Core 6.0.15 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.15' with options: None
+2023-03-29 18:19:50.574 +08:00  INF  Executed DbCommand (714ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 20), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [CostCodes] ([Active], [Code], [DateCreated], [DateDeleted], [DateUpdated], [Description], [Number])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [CostCodes]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-03-29 18:19:51.297 +08:00  INF  Executing OkObjectResult, writing value of type 'tas.Application.Features.CostCodeFeature.CreateCostCode.CreateCostCodeResponse'.
+2023-03-29 18:19:51.305 +08:00  INF  Executed action tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI) in 2139.5861ms
+2023-03-29 18:19:51.305 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.Tas.CostCodeController.Create (tas.WebAPI)'
+2023-03-29 18:19:51.305 +08:00  INF  Request finished HTTP/1.1 POST http://localhost:5171/api/tas/CostCode application/json 99 - 200 - application/json;+charset=utf-8 2143.5970ms
+2023-03-29 20:27:59.790 +08:00  INF  User profile is available. Using 'C:\Users\Davkharaa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-29 20:28:01.108 +08:00  INF  Now listening on: http://localhost:5171
+2023-03-29 20:28:01.110 +08:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 20:28:01.110 +08:00  INF  Hosting environment: Development
+2023-03-29 20:28:01.110 +08:00  INF  Content root path: E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.WebAPI\
+2023-03-29 20:28:02.327 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/index.html - -
+2023-03-29 20:28:03.029 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/index.html - - - 200 - text/html;charset=utf-8 704.8426ms
+2023-03-29 20:28:03.260 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_vs/browserLink - -
+2023-03-29 20:28:03.266 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - -
+2023-03-29 20:28:03.269 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_framework/aspnetcore-browser-refresh.js - - - 200 11989 application/javascript;+charset=utf-8 2.6869ms
+2023-03-29 20:28:03.292 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.1709ms
+2023-03-29 20:28:03.465 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - -
+2023-03-29 20:28:03.692 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 226.8517ms
+2023-03-29 20:28:09.018 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - -
+2023-03-29 20:28:09.602 +08:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-03-29 20:28:09.607 +08:00  INF  AuthenticationScheme: Negotiate was challenged.
+2023-03-29 20:28:09.607 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - - - 401 0 - 589.0707ms
+2023-03-29 20:28:09.608 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - -
+2023-03-29 20:28:09.654 +08:00  INF  Incomplete Negotiate handshake, sending an additional 401 Negotiate challenge.
+2023-03-29 20:28:09.654 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - - - 401 0 - 46.4205ms
+2023-03-29 20:28:09.658 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - -
+2023-03-29 20:28:09.682 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.AuthController.login (tas.WebAPI)'
+2023-03-29 20:28:09.705 +08:00  INF  Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] login() on controller tas.WebAPI.Controllers.AuthController (tas.WebAPI).
+2023-03-29 20:28:11.481 +08:00  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-29 20:28:11.487 +08:00  INF  Executed action tas.WebAPI.Controllers.AuthController.login (tas.WebAPI) in 1777.2925ms
+2023-03-29 20:28:11.489 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.AuthController.login (tas.WebAPI)'
+2023-03-29 20:28:11.489 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/loginadservice - - - 200 - text/plain;+charset=utf-8 1831.0437ms
+2023-03-29 20:28:18.778 +08:00  INF  Request starting HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - -
+2023-03-29 20:28:18.779 +08:00  INF  Executing endpoint 'tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI)'
+2023-03-29 20:28:18.780 +08:00  INF  Route matched with {action = "GetUserInfo", controller = "Auth"}. Executing controller action with signature System.Object GetUserInfo() on controller tas.WebAPI.Controllers.AuthController (tas.WebAPI).
+2023-03-29 20:28:18.781 +08:00  INF  Seri Log is Working
+2023-03-29 20:28:18.829 +08:00  INF  Executing ObjectResult, writing value of type 'tas.Domain.CustomModel.ADUser'.
+2023-03-29 20:28:18.840 +08:00  INF  Executed action tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI) in 59.9439ms
+2023-03-29 20:28:18.840 +08:00  INF  Executed endpoint 'tas.WebAPI.Controllers.AuthController.GetUserInfo (tas.WebAPI)'
+2023-03-29 20:28:18.840 +08:00  INF  Request finished HTTP/1.1 GET http://localhost:5171/api/Auth/userinfo - - - 200 - application/json;+charset=utf-8 61.8930ms

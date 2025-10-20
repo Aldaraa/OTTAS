@@ -1,0 +1,13 @@
+2025-04-25 14:08:37.515 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-25 14:08:38.159 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 273
+
+2025-04-25 14:08:38.172 +08:00  ERR  Response status code does not indicate success: 400 (Bad Request).
+2025-04-25 14:09:26.023 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}
+2025-04-25 14:09:26.051 +08:00  ERR  Failed to send batch 1/1System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.DepartmentSendData(DepartmentSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 273
+
+2025-04-25 14:09:26.051 +08:00  ERR  Response status code does not indicate success: 400 (Bad Request).
+2025-04-25 14:10:41.375 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}

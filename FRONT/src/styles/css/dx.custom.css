@@ -1,0 +1,277 @@
+/* .dx-datagrid-table .dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row):not(.dx-row-focused) > td:not(.dx-focused) {
+  background-color: #dee3fa;
+  color: #333;
+}
+.dx-datagrid-table .dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row):not(.dx-row-focused) > td:not(.dx-focused).dx-datagrid-group-space {
+  border-right-color: #dee3fa;
+}
+.dx-datagrid-table .dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row):not(.dx-row-focused) > td:not(.dx-focused).dx-command-select {
+  overflow: inherit;
+}
+.dx-datagrid-table .dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row):not(.dx-row-focused) > .dx-datagrid-readonly .dx-texteditor .dx-texteditor-input {
+  background-color: #dee3fa;
+  color: #333;
+} */
+
+.dx-datagrid{  
+  font: 13px 'Roboto', sans-serif;  
+  /* vertical-align: middle; */
+}  
+
+.dx-treelist-container{  
+  font: 13px 'Roboto',sans-serif;  
+}  
+.dx-pager .dx-page-sizes .dx-selection, .dx-pager .dx-pages .dx-selection{
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 10px;
+}
+.dx-pager .dx-pages .dx-page{
+  padding: 5px 10px;  
+  font-size: 13px;
+}
+
+.dx-pager .dx-page-sizes .dx-page-size{
+  padding: 5px 5px;
+  font-size: 13px;
+}
+
+.dx-pager .dx-pages .dx-navigate-button{
+  padding: 5px 13px;
+}
+
+.dx-theme-generic-typography a{
+  color: inherit;
+}
+.dx-datagrid .dx-datagrid-header-panel .dx-group-panel-item, .dx-datagrid .dx-datagrid-header-panel .dx-header-filter{
+  border-radius: var(--border-radius);
+}
+
+
+/* TRAVEL SCHEDULE */
+
+#travel-schedule .dx-scheduler-work-space-month .dx-scheduler-date-table-cell{
+  font-size: 14px;
+}
+#travel-schedule .dx-scheduler-cell-sizes-vertical{
+  height: 10px;
+  padding: 1px;
+}
+#travel-schedule .dx-scheduler-work-space{
+  border-radius: var(--border-radius);
+}
+#travel-schedule .dx-scheduler-header{
+  border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+#travel-schedule .dx-scheduler-container{
+  border-radius: var(--border-radius);
+}
+
+#travel-schedule .dx-scheduler-header-panel-cell{
+  height: auto;
+}
+#travel-schedule .dx-scheduler-header-panel {
+  margin-top: 0px;
+}
+#travel-schedule .dx-scheduler-all-day-table-cell:first-child, .dx-scheduler-date-table-cell:first-child {
+  border-left: 1px solid white;
+}
+#travel-schedule .dx-scheduler-header{
+  height: 40px;
+}
+#travel-schedule .dx-scheduler-header .dx-toolbar .dx-toolbar-item-content, .dx-scheduler-header .dx-toolbar .dx-toolbar-menu-container{
+  padding: 0px 8px;
+}
+#travel-schedule .dx-button-has-text .dx-button-content{
+  padding: 5px 10px;
+}
+#travel-schedule .dx-button-has-icon .dx-button-content{
+  padding: 5px;
+}
+
+#travel-schedule .dx-template-wrapper, .dx-scheduler-date-table-cell {
+  position: relative;
+}
+
+#travel-schedule .dx-scheduler-date-table-cell .dx-template-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+
+#travel-schedule .dx-scheduler-appointment{
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+
+#travel-schedule .dx-scheduler-date-table-cell{
+  color: #333;
+}
+
+#travel-schedule .dx-scheduler-date-table-other-month{
+  opacity: .4;
+}
+
+#travel-schedule .dx-scheduler-date-table-current-date{
+  color: dodgerblue;
+}
+
+#travel-schedule .dx-scheduler-work-space-month .dx-scheduler-date-table-scrollable .dx-scrollable-content{
+  min-height: 250px;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row > td, .dx-datagrid-content .dx-datagrid-table .dx-row > tr > td{
+  vertical-align: middle;
+}
+.dx-datagrid-rowsview .dx-master-detail-row > .dx-master-detail-cell{
+  padding: 7px;
+}
+
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row .dx-command-edit:not(.dx-focused) .dx-link, .dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused), .dx-datagrid-rowsview .dx-row-focused.dx-data-row > tr > td:not(.dx-focused){
+  background-color: #bbe1ff;
+  color: inherit;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  vertical-align: middle;
+}
+
+/* .dx-datagrid-rowsview .dx-row-focused.dx-data-row .dx-command-edit:not(.dx-focused) .dx-link, .dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused), .dx-datagrid-rowsview .dx-row-focused.dx-data-row > tr > td:not(.dx-focused){
+  color: #337ab7;
+} */
+
+.dx-overlay-shader {
+  pointer-events: auto;
+  background-color: rgba(0,0,0,.3);
+}
+
+/* ///////////////////////    DevExtreme Calendar Table    ////////////////////// */
+
+
+#calendar-table .dx-datagrid-content .dx-datagrid-table .dx-row > td, .dx-datagrid-content .dx-datagrid-table .dx-row > tr > td{
+  vertical-align: middle;
+}
+
+#calendar-table .dx-datagrid-rowsview .dx-row-focused.dx-data-row .dx-command-edit:not(.dx-focused) .dx-link,
+#calendar-table .dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused),
+#calendar-table .dx-datagrid-rowsview .dx-row-focused.dx-data-row > tr > td:not(.dx-focused){
+  border-bottom: none;
+}
+
+#calendar-table .dx-datagrid .dx-row > td{
+  padding: 0;
+}
+
+.dx-datagrid-headers .dx-texteditor-input, .dx-datagrid-rowsview .dx-texteditor-input{
+  padding: 2px 6px;
+  font-size: 13px;
+}
+.dx-placeholder::before {
+  padding: 2px 6px;
+  font-size: 13px;
+}
+
+/* ///////////////////////    DevExtreme DataGrid    ////////////////////// */
+
+.dx-datagrid-headers .dx-texteditor-input, .dx-datagrid-rowsview .dx-texteditor-input{
+  min-height: 20px;
+}
+
+.dx-datagrid-column-chooser{
+  max-width: 260px;
+  max-height: 250px;
+}
+
+.dx-datagrid .dx-row-alt > td, .dx-datagrid .dx-row-alt > tr > td{
+  background-color: #fafafa;
+  border-top: 1px solid #fafafa;
+  border-bottom: 1px solid #fafafa;
+}
+
+.dx-loadindicator-icon .dx-loadindicator-segment{
+  background-color: var(--primary-color);
+}
+
+.dx-theme-generic-typography {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* tree list line */
+
+.dx-treelist-rowsview .dx-treelist-empty-space {
+  margin-right: 10px;
+}
+
+.dx-treelist-rowsview .dx-line {
+  width: 14px;
+  height: 14px;
+}
+
+.dx-treelist-rowsview .dx-line span {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.dx-treelist-rowsview .dx-line span:before {
+  width: 14px;
+  margin-top: -5px;
+  margin-left: -6px;
+}
+
+.dx-treelist-rowsview .dx-line:before {
+  visibility: visible !important;
+  content: "" !important;
+  position: absolute;
+  left: 0px;
+  right: -4px;
+  top: -7px;
+  bottom: -16px;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAABmCAYAAAAgVArEAAAAgElEQVRoQ+3aMQrAIAxA0Sgey+PnXulU6PBpoW22/yaF8AUnB0dVRZcZEZGZLSfMp4EvjCPjyDgyjowj48g4ao2vc/H322XvPdZ1czf8Ruu1GEfGkXFkHBlHxpFxZBwZR8aRcWQcGUfGkXFkHBlHxpFxZBwZR8aRcWQcjfY/RV0OBM0OyQHa1DgAAAAASUVORK5CYII=');
+  background-repeat: no-repeat;
+  background-position: 0px -30px;
+}
+
+.dx-treelist-rowsview .dx-line-middle:before {
+  background-position-y: -9px;
+}
+
+.dx-treelist-rowsview .dx-line-last:before {
+  bottom: 4px;
+}
+
+.dx-treelist-rowsview .dx-treelist-collapsed span:before {  
+  content: url(../../assets//icons/more.png); 
+  background-color: white;
+  transform: scale(0.8);
+}  
+.dx-treelist-rowsview .dx-treelist-expanded span:before {  
+  content: url(../../assets//icons/minus.png); 
+  background-color: white;  
+  transform: scale(0.8);
+}
+
+.dx-datagrid-header-panel .dx-toolbar {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.dx-datagrid-table .dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row):not(.dx-row-focused) > td:not(.dx-focused){
+  background-color: #e5f2ff;
+}
+
+.dx-datagrid-headers {
+  user-select: auto;
+}
+
+.dx-filter-menu.dx-menu .dx-menu-item .dx-menu-item-content{
+  padding: 3px 5px 7px;
+}
+
+.dx-datagrid > .dx-datagrid-pager {
+  order: -1;
+  border-top: 0px;
+  border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,49 @@
+2024-09-23 19:30:27.373 +08:00  ERR  An error occurred using the connection to database 'tasaccdb' on server 'DAVKHARAA-PC\SQLEXPRESS01'.
+2024-09-23 21:58:28.969 +08:00  ERR  Error when dispatching 'OnConnectedAsync' on hub.System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.FindValue(TKey key)
+   at System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   at tas.Application.Service.SignalrHub.OnConnectedAsync() in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Service\SignalrHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+
+2024-09-23 21:58:50.056 +08:00  ERR  Error when dispatching 'OnConnectedAsync' on hub.System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.FindValue(TKey key)
+   at System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   at tas.Application.Service.SignalrHub.OnConnectedAsync() in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Service\SignalrHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+
+2024-09-23 21:59:52.258 +08:00  ERR  Error when dispatching 'OnConnectedAsync' on hub.System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.FindValue(TKey key)
+   at System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   at tas.Application.Service.SignalrHub.OnConnectedAsync() in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Service\SignalrHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+
+2024-09-23 22:00:24.065 +08:00  ERR  Error when dispatching 'OnConnectedAsync' on hub.System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.FindValue(TKey key)
+   at System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   at tas.Application.Service.SignalrHub.OnConnectedAsync() in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Service\SignalrHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+
+2024-09-23 22:10:06.367 +08:00  ERR  Error when dispatching 'OnConnectedAsync' on hub.System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.FindValue(TKey key)
+   at System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   at tas.Application.Service.SignalrHub.OnConnectedAsync() in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Service\SignalrHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+
+2024-09-23 22:10:47.297 +08:00  ERR  Error when dispatching 'OnConnectedAsync' on hub.System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.FindValue(TKey key)
+   at System.Collections.Generic.Dictionary`2.ContainsKey(TKey key)
+   at tas.Application.Service.SignalrHub.OnConnectedAsync() in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Service\SignalrHub.cs:line 37
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+

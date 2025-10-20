@@ -1,0 +1,121 @@
+2024-09-25 12:22:34.575 +08:00  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: The LINQ expression 'DbSet<Transport>()
+    .Where(t => t.EventDate.Value.Date >= __startDate_0 && t.EventDate <= __endDate_Date_1 && __empIds_2
+        .Contains(t.EmployeeId.Value))
+    .Join(
+        inner: DbSet<Employee>(), 
+        outerKeySelector: t => (object)t.EmployeeId, 
+        innerKeySelector: e0 => (object)(int?)e0.Id, 
+        resultSelector: (t, e0) => new TransparentIdentifier<Transport, Employee>(
+            Outer = t, 
+            Inner = e0
+        ))
+    .LeftJoin(
+        inner: DbSet<Department>(), 
+        outerKeySelector: ti => (object)ti.Inner.DepartmentId, 
+        innerKeySelector: d => (object)(int?)d.Id, 
+        resultSelector: (ti, d) => new TransparentIdentifier<TransparentIdentifier<Transport, Employee>, Department>(
+            Outer = ti, 
+            Inner = d
+        ))
+    .LeftJoin(
+        inner: DbSet<Employer>(), 
+        outerKeySelector: ti0 => (object)ti0.Outer.Inner.EmployerId, 
+        innerKeySelector: e1 => (object)(int?)e1.Id, 
+        resultSelector: (ti0, e1) => new TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<Transport, Employee>, Department>, Employer>(
+            Outer = ti0, 
+            Inner = e1
+        ))
+    .LeftJoin(
+        inner: DbSet<Position>(), 
+        outerKeySelector: ti1 => (object)ti1.Outer.Outer.Inner.PositionId, 
+        innerKeySelector: p => (object)(int?)p.Id, 
+        resultSelector: (ti1, p) => new TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<Transport, Employee>, Department>, Employer>, Position>(
+            Outer = ti1, 
+            Inner = p
+        ))
+    .LeftJoin(
+        inner: DbSet<PeopleType>(), 
+        outerKeySelector: ti2 => (object)ti2.Outer.Outer.Outer.Inner.PeopleTypeId, 
+        innerKeySelector: p0 => (object)(int?)p0.Id, 
+        resultSelector: (ti2, p0) => new TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<Transport, Employee>, Department>, Employer>, Position>, PeopleType>(
+            Outer = ti2, 
+            Inner = p0
+        ))
+    .LeftJoin(
+        inner: DbSet<ActiveTransport>(), 
+        outerKeySelector: ti3 => (object)ti3.Outer.Outer.Outer.Outer.Outer.ActiveTransportId, 
+        innerKeySelector: a => (object)a.Id, 
+        resultSelector: (ti3, a) => new TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<Transport, Employee>, Department>, Employer>, Position>, PeopleType>, ActiveTransport>(
+            Outer = ti3, 
+            Inner = a
+        ))
+    .LeftJoin(
+        inner: DbSet<TransportSchedule>(), 
+        outerKeySelector: ti4 => (object)ti4.Outer.Outer.Outer.Outer.Outer.Outer.ScheduleId, 
+        innerKeySelector: t0 => (object)(int?)t0.Id, 
+        resultSelector: (ti4, t0) => new TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<Transport, Employee>, Department>, Employer>, Position>, PeopleType>, ActiveTransport>, TransportSchedule>(
+            Outer = ti4, 
+            Inner = t0
+        ))
+    .OrderBy(ti5 => ti5.Outer.Outer.Outer.Outer.Outer.Outer.Outer.EventDate.HasValue ? ti5.Outer.Outer.Outer.Outer.Outer.Outer.Outer.EventDate.Value.ToString("yyyy-MM-dd") : "")' could not be translated. Additional information: Translation of method 'System.DateTime.ToString' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at tas.Persistence.Repositories.TransportRepository.TransportBookingInfo(TransportBookingInfoRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\TransportRepository.BookingInfo.partial.cs:line 82
+   at tas.Application.Features.TransportFeature.TransportBookingInfo.TransportBookingInfoHandler.Handle(TransportBookingInfoRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Features\TransportFeature\TransportBookingInfo\TransportBookingInfoHandler.cs:line 26
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 39
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.TransportController.BookingInfo(TransportBookingInfoRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.WebAPI\Controllers\Tas\TransportController.cs:line 171
+   at lambda_method1133(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2024-09-25 16:24:50.194 +08:00  ERR  An unhandled exception has occurred while executing the request.tas.Application.Common.Exceptions.BadRequestException: An error occurred while executing the query.
+   at tas.Persistence.Repositories.DashboardTransportAdminRepository.GetRawQueryData[T](String query, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\DashboardTransportAdminRepository.cs:line 454
+   at tas.Persistence.Repositories.DashboardTransportAdminRepository.GetRawQueryData[T](String query, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\DashboardTransportAdminRepository.cs:line 462
+   at tas.Persistence.Repositories.DashboardTransportAdminRepository.GetDomesticAircraft(DateTime startDate, DateTime endDate, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\DashboardTransportAdminRepository.cs:line 217
+   at tas.Persistence.Repositories.DashboardTransportAdminRepository.GetDomesticData(GetDomesticDataRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Persistence\Repositories\DashboardTransportAdminRepository.cs:line 50
+   at tas.Application.Features.DashboardTransportAdminFeature.GetDomesticData.GetDomesticDataHandler.Handle(GetDomesticDataRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Features\DashboardTransportAdminFeature\GetDomesticData\GetDomesticDataHandler.cs:line 26
+   at tas.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Application\Common\Behaviors\ValidatorBehavior.cs:line 24
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at tas.WebAPI.Controllers.Tas.DashboardTransportAdminController.GetDomesticData(Nullable`1 startDate, DateTime endDate, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.WebAPI\Controllers\Tas\DashboardTransportAdminController.cs:line 89
+   at lambda_method1133(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+

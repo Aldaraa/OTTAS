@@ -1,0 +1,20 @@
+.duration {
+  position: relative;
+}
+
+.duration::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background: lightgray;
+  top: -12px;
+}
+.duration::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background: lightgray;
+  bottom: -12px;
+}

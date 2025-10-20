@@ -1,0 +1,1934 @@
+[
+  {
+    "No": 1,
+    "Id": 125,
+    "Count": 2,
+    "Description": "7/7 even AM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 2,
+    "Id": 19,
+    "Count": 1,
+    "Description": "7/7/7 EO",
+    "DayName": "Monday"
+  },
+  {
+    "No": 3,
+    "Id": 94,
+    "Count": 5,
+    "Description": "7/7/7 OE-PM",
+    "DayName": "Friday"
+  },
+  {
+    "No": 4,
+    "Id": 23,
+    "Count": 13,
+    "Description": "AM/AM KB BUS",
+    "DayName": "Monday"
+  },
+  {
+    "No": 5,
+    "Id": 29,
+    "Count": 42,
+    "Description": "DN-OTUG-Geos",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 6,
+    "Id": 145,
+    "Count": 1,
+    "Description": "DZ 4/3-3/4 Even AMPM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 7,
+    "Id": 3,
+    "Count": 8,
+    "Description": "E DZ TUE/WED",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 8,
+    "Id": 6,
+    "Count": 1,
+    "Description": "E PM IN/AM OUT",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 9,
+    "Id": 11,
+    "Count": 1,
+    "Description": "E. AM IN/PM OUT",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 10,
+    "Id": 1,
+    "Count": 14,
+    "Description": "E. DS PM/NS AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 11,
+    "Id": 41,
+    "Count": 1,
+    "Description": "EveDZ Mine Operation",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 12,
+    "Id": 66,
+    "Count": 4,
+    "Description": "Even DZ Logistics",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 13,
+    "Id": 15,
+    "Count": 1,
+    "Description": "Even to Odd Short 7/7",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 14,
+    "Id": 46,
+    "Count": 4,
+    "Description": "Even UG-E&I mainten",
+    "DayName": "Friday"
+  },
+  {
+    "No": 15,
+    "Id": 31,
+    "Count": 23,
+    "Description": "Eve-UGMining: FULL",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 16,
+    "Id": 56,
+    "Count": 4,
+    "Description": "Hybrid Even",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 17,
+    "Id": 5,
+    "Count": 25,
+    "Description": "KB Bus PM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 18,
+    "Id": 0,
+    "Count": 254,
+    "Description": "Not registered",
+    "DayName": "Friday"
+  },
+  {
+    "No": 19,
+    "Id": 4,
+    "Count": 2,
+    "Description": "O DZ TUE/WED",
+    "DayName": "Monday"
+  },
+  {
+    "No": 20,
+    "Id": 126,
+    "Count": 1,
+    "Description": "Odd KB-Khurd ",
+    "DayName": "Monday"
+  },
+  {
+    "No": 21,
+    "Id": 69,
+    "Count": 2,
+    "Description": "OddDZ Mine Operation",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 22,
+    "Id": 142,
+    "Count": 2,
+    "Description": "ShortRO in/AM out/PM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 23,
+    "Id": 53,
+    "Count": 1,
+    "Description": "SIS Eve",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 24,
+    "Id": 52,
+    "Count": 7,
+    "Description": "SIS Odd",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 25,
+    "Id": 62,
+    "Count": 6,
+    "Description": "Surface Odd UGMining",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 26,
+    "Id": 26,
+    "Count": 4,
+    "Description": "THUR DS PM/NS AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 27,
+    "Id": 98,
+    "Count": 1,
+    "Description": "3/4 OE-EO",
+    "DayName": "Monday"
+  },
+  {
+    "No": 28,
+    "Id": 85,
+    "Count": 1,
+    "Description": "7/7 even",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 29,
+    "Id": 85,
+    "Count": 4,
+    "Description": "7/7 even",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 30,
+    "Id": 85,
+    "Count": 2,
+    "Description": "7/7 even",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 31,
+    "Id": 86,
+    "Count": 3,
+    "Description": "7/7 Odd",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 32,
+    "Id": 86,
+    "Count": 1,
+    "Description": "7/7 Odd",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 33,
+    "Id": 93,
+    "Count": 8,
+    "Description": "7/7/7 EO-PM",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 34,
+    "Id": 22,
+    "Count": 3,
+    "Description": "Bluefin O UB AM/PM",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 35,
+    "Id": 133,
+    "Count": 1,
+    "Description": "DZ Even All AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 36,
+    "Id": 48,
+    "Count": 7,
+    "Description": "Ev End user experie",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 37,
+    "Id": 129,
+    "Count": 97,
+    "Description": "Even Concentrator Maintenance",
+    "DayName": "Monday"
+  },
+  {
+    "No": 38,
+    "Id": 67,
+    "Count": 1,
+    "Description": "Even Logistics",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 39,
+    "Id": 67,
+    "Count": 2,
+    "Description": "Even Logistics",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 40,
+    "Id": 45,
+    "Count": 16,
+    "Description": "Even Mine Operation",
+    "DayName": "Friday"
+  },
+  {
+    "No": 41,
+    "Id": 46,
+    "Count": 3,
+    "Description": "Even UG-E&I mainten",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 42,
+    "Id": 46,
+    "Count": 1,
+    "Description": "Even UG-E&I mainten",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 43,
+    "Id": 74,
+    "Count": 3,
+    "Description": "EvenMine Technical.S",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 44,
+    "Id": 34,
+    "Count": 1,
+    "Description": "Eve-OT SIS DZ",
+    "DayName": "Monday"
+  },
+  {
+    "No": 45,
+    "Id": 56,
+    "Count": 64,
+    "Description": "Hybrid Even",
+    "DayName": "Monday"
+  },
+  {
+    "No": 46,
+    "Id": 28,
+    "Count": 1,
+    "Description": "MON PM/PM",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 47,
+    "Id": 7,
+    "Count": 1,
+    "Description": "O. AM IN/PM OUT",
+    "DayName": "Monday"
+  },
+  {
+    "No": 48,
+    "Id": 2,
+    "Count": 3,
+    "Description": "O. DS PM/NS AM",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 49,
+    "Id": 2,
+    "Count": 2,
+    "Description": "O. DS PM/NS AM",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 50,
+    "Id": 130,
+    "Count": 9,
+    "Description": "Odd Concentrator Maintenance",
+    "DayName": "Monday"
+  },
+  {
+    "No": 51,
+    "Id": 119,
+    "Count": 31,
+    "Description": "Odd DZ Logistics",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 52,
+    "Id": 27,
+    "Count": 17,
+    "Description": "ODD56TEST_SHORT_ROSTER",
+    "DayName": "Monday"
+  },
+  {
+    "No": 53,
+    "Id": 142,
+    "Count": 3,
+    "Description": "ShortRO in/AM out/PM",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 54,
+    "Id": 53,
+    "Count": 1,
+    "Description": "SIS Eve",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 55,
+    "Id": 53,
+    "Count": 1,
+    "Description": "SIS Eve",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 56,
+    "Id": 60,
+    "Count": 67,
+    "Description": "Surface Even UGMining",
+    "DayName": "Monday"
+  },
+  {
+    "No": 57,
+    "Id": 62,
+    "Count": 18,
+    "Description": "Surface Odd UGMining",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 58,
+    "Id": 62,
+    "Count": 8,
+    "Description": "Surface Odd UGMining",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 59,
+    "Id": 26,
+    "Count": 2,
+    "Description": "THUR DS PM/NS AM",
+    "DayName": "Friday"
+  },
+  {
+    "No": 60,
+    "Id": 124,
+    "Count": 1,
+    "Description": "7/7 Odd AM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 61,
+    "Id": 19,
+    "Count": 1,
+    "Description": "7/7/7 EO",
+    "DayName": "Friday"
+  },
+  {
+    "No": 62,
+    "Id": 93,
+    "Count": 2,
+    "Description": "7/7/7 EO-PM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 63,
+    "Id": 18,
+    "Count": 1,
+    "Description": "7/7/7 OE",
+    "DayName": "Monday"
+  },
+  {
+    "No": 64,
+    "Id": 23,
+    "Count": 1,
+    "Description": "AM/AM KB BUS",
+    "DayName": "Saturday"
+  },
+  {
+    "No": 65,
+    "Id": 23,
+    "Count": 47,
+    "Description": "AM/AM KB BUS",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 66,
+    "Id": 23,
+    "Count": 2,
+    "Description": "AM/AM KB BUS",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 67,
+    "Id": 29,
+    "Count": 1,
+    "Description": "DN-OTUG-Geos",
+    "DayName": "Friday"
+  },
+  {
+    "No": 68,
+    "Id": 3,
+    "Count": 18,
+    "Description": "E DZ TUE/WED",
+    "DayName": "Monday"
+  },
+  {
+    "No": 69,
+    "Id": 115,
+    "Count": 3,
+    "Description": "EveDZ Camps Services",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 70,
+    "Id": 131,
+    "Count": 1,
+    "Description": "Even All AM",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 71,
+    "Id": 36,
+    "Count": 1,
+    "Description": "Even C&SS",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 72,
+    "Id": 129,
+    "Count": 1,
+    "Description": "Even Concentrator Maintenance",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 73,
+    "Id": 159,
+    "Count": 10,
+    "Description": "Even Electrical Service",
+    "DayName": "Monday"
+  },
+  {
+    "No": 74,
+    "Id": 45,
+    "Count": 11,
+    "Description": "Even Mine Operation",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 75,
+    "Id": 45,
+    "Count": 17,
+    "Description": "Even Mine Operation",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 76,
+    "Id": 102,
+    "Count": 1,
+    "Description": "Even Sun AM",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 77,
+    "Id": 57,
+    "Count": 3,
+    "Description": "Even-P&O-Training PM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 78,
+    "Id": 31,
+    "Count": 59,
+    "Description": "Eve-UGMining: FULL",
+    "DayName": "Monday"
+  },
+  {
+    "No": 79,
+    "Id": 55,
+    "Count": 3,
+    "Description": "Hybrid- Odd",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 80,
+    "Id": 10,
+    "Count": 1,
+    "Description": "ML Bus",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 81,
+    "Id": 10,
+    "Count": 22,
+    "Description": "ML Bus",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 82,
+    "Id": 4,
+    "Count": 2,
+    "Description": "O DZ TUE/WED",
+    "DayName": "Friday"
+  },
+  {
+    "No": 83,
+    "Id": 7,
+    "Count": 1,
+    "Description": "O. AM IN/PM OUT",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 84,
+    "Id": 126,
+    "Count": 1,
+    "Description": "Odd KB-Khurd ",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 85,
+    "Id": 75,
+    "Count": 1,
+    "Description": "OddMine Technical.S",
+    "DayName": "Monday"
+  },
+  {
+    "No": 86,
+    "Id": 33,
+    "Count": 73,
+    "Description": "Odd-UGMining: FULL ",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 87,
+    "Id": 33,
+    "Count": 1,
+    "Description": "Odd-UGMining: FULL ",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 88,
+    "Id": 33,
+    "Count": 2,
+    "Description": "Odd-UGMining: FULL ",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 89,
+    "Id": 51,
+    "Count": 6,
+    "Description": "OddUGP Construction",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 90,
+    "Id": 51,
+    "Count": 1,
+    "Description": "OddUGP Construction",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 91,
+    "Id": 53,
+    "Count": 1,
+    "Description": "SIS Eve",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 92,
+    "Id": 52,
+    "Count": 16,
+    "Description": "SIS Odd",
+    "DayName": "Monday"
+  },
+  {
+    "No": 93,
+    "Id": 26,
+    "Count": 14,
+    "Description": "THUR DS PM/NS AM",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 94,
+    "Id": 26,
+    "Count": 1,
+    "Description": "THUR DS PM/NS AM",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 95,
+    "Id": 26,
+    "Count": 2,
+    "Description": "THUR DS PM/NS AM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 96,
+    "Id": 82,
+    "Count": 1,
+    "Description": "UG Mobile Maintenance Even",
+    "DayName": "Friday"
+  },
+  {
+    "No": 97,
+    "Id": 82,
+    "Count": 8,
+    "Description": "UG Mobile Maintenance Even",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 98,
+    "Id": 86,
+    "Count": 1,
+    "Description": "7/7 Odd",
+    "DayName": "Monday"
+  },
+  {
+    "No": 99,
+    "Id": 23,
+    "Count": 3,
+    "Description": "AM/AM KB BUS",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 100,
+    "Id": 23,
+    "Count": 64,
+    "Description": "AM/AM KB BUS",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 101,
+    "Id": 39,
+    "Count": 2,
+    "Description": "DN SIS Ops WU",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 102,
+    "Id": 39,
+    "Count": 1,
+    "Description": "DN SIS Ops WU",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 103,
+    "Id": 29,
+    "Count": 1,
+    "Description": "DN-OTUG-Geos",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 104,
+    "Id": 3,
+    "Count": 113,
+    "Description": "E DZ TUE/WED",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 105,
+    "Id": 115,
+    "Count": 1,
+    "Description": "EveDZ Camps Services",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 106,
+    "Id": 41,
+    "Count": 1,
+    "Description": "EveDZ Mine Operation",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 107,
+    "Id": 121,
+    "Count": 2,
+    "Description": "EVEN AM IN/ PM OUT",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 108,
+    "Id": 36,
+    "Count": 1,
+    "Description": "Even C&SS",
+    "DayName": "Monday"
+  },
+  {
+    "No": 109,
+    "Id": 129,
+    "Count": 1,
+    "Description": "Even Concentrator Maintenance",
+    "DayName": "Friday"
+  },
+  {
+    "No": 110,
+    "Id": 129,
+    "Count": 2,
+    "Description": "Even Concentrator Maintenance",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 111,
+    "Id": 103,
+    "Count": 7,
+    "Description": "Even OPS HSE",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 112,
+    "Id": 103,
+    "Count": 15,
+    "Description": "Even OPS HSE",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 113,
+    "Id": 46,
+    "Count": 1,
+    "Description": "Even UG-E&I mainten",
+    "DayName": "Monday"
+  },
+  {
+    "No": 114,
+    "Id": 35,
+    "Count": 1,
+    "Description": "Eve-OT SIS",
+    "DayName": "Monday"
+  },
+  {
+    "No": 115,
+    "Id": 55,
+    "Count": 14,
+    "Description": "Hybrid- Odd",
+    "DayName": "Monday"
+  },
+  {
+    "No": 116,
+    "Id": 5,
+    "Count": 7,
+    "Description": "KB Bus PM",
+    "DayName": "Friday"
+  },
+  {
+    "No": 117,
+    "Id": 0,
+    "Count": 183,
+    "Description": "Not registered",
+    "DayName": "Monday"
+  },
+  {
+    "No": 118,
+    "Id": 20,
+    "Count": 1,
+    "Description": "O AM IN/AM OUT",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 119,
+    "Id": 4,
+    "Count": 2,
+    "Description": "O DZ TUE/WED",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 120,
+    "Id": 118,
+    "Count": 1,
+    "Description": "Odd Camps Services",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 121,
+    "Id": 113,
+    "Count": 2,
+    "Description": "Odd IT",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 122,
+    "Id": 43,
+    "Count": 3,
+    "Description": "Odd Mine Operation",
+    "DayName": "Friday"
+  },
+  {
+    "No": 123,
+    "Id": 43,
+    "Count": 2,
+    "Description": "Odd Mine Operation",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 124,
+    "Id": 59,
+    "Count": 2,
+    "Description": "Odd- P&O train",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 125,
+    "Id": 27,
+    "Count": 4,
+    "Description": "ODD56TEST_SHORT_ROSTER",
+    "DayName": "Friday"
+  },
+  {
+    "No": 126,
+    "Id": 27,
+    "Count": 2,
+    "Description": "ODD56TEST_SHORT_ROSTER",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 127,
+    "Id": 53,
+    "Count": 16,
+    "Description": "SIS Eve",
+    "DayName": "Monday"
+  },
+  {
+    "No": 128,
+    "Id": 60,
+    "Count": 48,
+    "Description": "Surface Even UGMining",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 129,
+    "Id": 60,
+    "Count": 58,
+    "Description": "Surface Even UGMining",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 130,
+    "Id": 82,
+    "Count": 5,
+    "Description": "UG Mobile Maintenance Even",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 131,
+    "Id": 85,
+    "Count": 7,
+    "Description": "7/7 even",
+    "DayName": "Monday"
+  },
+  {
+    "No": 132,
+    "Id": 125,
+    "Count": 2,
+    "Description": "7/7 even AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 133,
+    "Id": 93,
+    "Count": 4,
+    "Description": "7/7/7 EO-PM",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 134,
+    "Id": 94,
+    "Count": 1,
+    "Description": "7/7/7 OE-PM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 135,
+    "Id": 110,
+    "Count": 3,
+    "Description": "Crane Rigging",
+    "DayName": "Monday"
+  },
+  {
+    "No": 136,
+    "Id": 107,
+    "Count": 6,
+    "Description": "CSS DZ ll/ll",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 137,
+    "Id": 135,
+    "Count": 1,
+    "Description": "DZ Even Mechanical Maintenance",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 138,
+    "Id": 3,
+    "Count": 3,
+    "Description": "E DZ TUE/WED",
+    "DayName": "Friday"
+  },
+  {
+    "No": 139,
+    "Id": 6,
+    "Count": 1,
+    "Description": "E PM IN/AM OUT",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 140,
+    "Id": 41,
+    "Count": 19,
+    "Description": "EveDZ Mine Operation",
+    "DayName": "Friday"
+  },
+  {
+    "No": 141,
+    "Id": 41,
+    "Count": 3,
+    "Description": "EveDZ Mine Operation",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 142,
+    "Id": 116,
+    "Count": 1,
+    "Description": "Even Camps Services",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 143,
+    "Id": 116,
+    "Count": 2,
+    "Description": "Even Camps Services",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 144,
+    "Id": 114,
+    "Count": 1,
+    "Description": "Even DZ IT",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 145,
+    "Id": 112,
+    "Count": 16,
+    "Description": "Even IT",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 146,
+    "Id": 45,
+    "Count": 56,
+    "Description": "Even Mine Operation",
+    "DayName": "Monday"
+  },
+  {
+    "No": 147,
+    "Id": 103,
+    "Count": 1,
+    "Description": "Even OPS HSE",
+    "DayName": "Monday"
+  },
+  {
+    "No": 148,
+    "Id": 102,
+    "Count": 2,
+    "Description": "Even Sun AM",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 149,
+    "Id": 50,
+    "Count": 14,
+    "Description": "EvenUGP Construction",
+    "DayName": "Friday"
+  },
+  {
+    "No": 150,
+    "Id": 50,
+    "Count": 3,
+    "Description": "EvenUGP Construction",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 151,
+    "Id": 56,
+    "Count": 15,
+    "Description": "Hybrid Even",
+    "DayName": "Friday"
+  },
+  {
+    "No": 152,
+    "Id": 56,
+    "Count": 18,
+    "Description": "Hybrid Even",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 153,
+    "Id": 56,
+    "Count": 41,
+    "Description": "Hybrid Even",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 154,
+    "Id": 56,
+    "Count": 45,
+    "Description": "Hybrid Even",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 155,
+    "Id": 28,
+    "Count": 1,
+    "Description": "MON PM/PM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 156,
+    "Id": 0,
+    "Count": 7,
+    "Description": "Not registered",
+    "DayName": "Saturday"
+  },
+  {
+    "No": 157,
+    "Id": 0,
+    "Count": 114,
+    "Description": "Not registered",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 158,
+    "Id": 0,
+    "Count": 234,
+    "Description": "Not registered",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 159,
+    "Id": 2,
+    "Count": 3,
+    "Description": "O. DS PM/NS AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 160,
+    "Id": 119,
+    "Count": 1,
+    "Description": "Odd DZ Logistics",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 161,
+    "Id": 88,
+    "Count": 1,
+    "Description": "Odd OPS HSE",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 162,
+    "Id": 27,
+    "Count": 6,
+    "Description": "ODD56TEST_SHORT_ROSTER",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 163,
+    "Id": 52,
+    "Count": 2,
+    "Description": "SIS Odd",
+    "DayName": "Friday"
+  },
+  {
+    "No": 164,
+    "Id": 72,
+    "Count": 3,
+    "Description": "Surface Even UG DZ",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 165,
+    "Id": 62,
+    "Count": 28,
+    "Description": "Surface Odd UGMining",
+    "DayName": "Monday"
+  },
+  {
+    "No": 166,
+    "Id": 98,
+    "Count": 2,
+    "Description": "3/4 OE-EO",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 167,
+    "Id": 143,
+    "Count": 1,
+    "Description": "4/3- 3/4 Even AM-PM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 168,
+    "Id": 85,
+    "Count": 6,
+    "Description": "7/7 even",
+    "DayName": "Friday"
+  },
+  {
+    "No": 169,
+    "Id": 125,
+    "Count": 1,
+    "Description": "7/7 even AM",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 170,
+    "Id": 124,
+    "Count": 1,
+    "Description": "7/7 Odd AM",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 171,
+    "Id": 93,
+    "Count": 7,
+    "Description": "7/7/7 EO-PM",
+    "DayName": "Friday"
+  },
+  {
+    "No": 172,
+    "Id": 94,
+    "Count": 8,
+    "Description": "7/7/7 OE-PM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 173,
+    "Id": 9,
+    "Count": 1,
+    "Description": "BO Bus",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 174,
+    "Id": 9,
+    "Count": 12,
+    "Description": "BO Bus",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 175,
+    "Id": 29,
+    "Count": 1,
+    "Description": "DN-OTUG-Geos",
+    "DayName": "Monday"
+  },
+  {
+    "No": 176,
+    "Id": 128,
+    "Count": 10,
+    "Description": "DZ Even Concentrator Maintenance",
+    "DayName": "Monday"
+  },
+  {
+    "No": 177,
+    "Id": 152,
+    "Count": 1,
+    "Description": "DZ Even HSE",
+    "DayName": "Friday"
+  },
+  {
+    "No": 178,
+    "Id": 1,
+    "Count": 5,
+    "Description": "E. DS PM/NS AM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 179,
+    "Id": 41,
+    "Count": 21,
+    "Description": "EveDZ Mine Operation",
+    "DayName": "Monday"
+  },
+  {
+    "No": 180,
+    "Id": 30,
+    "Count": 10,
+    "Description": "Eve-DZ-OTUG-Geos",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 181,
+    "Id": 36,
+    "Count": 7,
+    "Description": "Even C&SS",
+    "DayName": "Friday"
+  },
+  {
+    "No": 182,
+    "Id": 66,
+    "Count": 1,
+    "Description": "Even DZ Logistics",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 183,
+    "Id": 159,
+    "Count": 1,
+    "Description": "Even Electrical Service",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 184,
+    "Id": 45,
+    "Count": 2,
+    "Description": "Even Mine Operation",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 185,
+    "Id": 49,
+    "Count": 1,
+    "Description": "Even Mines Rescue",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 186,
+    "Id": 103,
+    "Count": 1,
+    "Description": "Even OPS HSE",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 187,
+    "Id": 50,
+    "Count": 3,
+    "Description": "EvenUGP Construction",
+    "DayName": "Monday"
+  },
+  {
+    "No": 188,
+    "Id": 31,
+    "Count": 87,
+    "Description": "Eve-UGMining: FULL",
+    "DayName": "Friday"
+  },
+  {
+    "No": 189,
+    "Id": 55,
+    "Count": 1,
+    "Description": "Hybrid- Odd",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 190,
+    "Id": 55,
+    "Count": 2,
+    "Description": "Hybrid- Odd",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 191,
+    "Id": 55,
+    "Count": 4,
+    "Description": "Hybrid- Odd",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 192,
+    "Id": 0,
+    "Count": 250,
+    "Description": "Not registered",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 193,
+    "Id": 0,
+    "Count": 253,
+    "Description": "Not registered",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 194,
+    "Id": 130,
+    "Count": 1,
+    "Description": "Odd Concentrator Maintenance",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 195,
+    "Id": 126,
+    "Count": 2,
+    "Description": "Odd KB-Khurd ",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 196,
+    "Id": 126,
+    "Count": 7,
+    "Description": "Odd KB-Khurd ",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 197,
+    "Id": 68,
+    "Count": 67,
+    "Description": "Odd Logistics",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 198,
+    "Id": 68,
+    "Count": 2,
+    "Description": "Odd Logistics",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 199,
+    "Id": 68,
+    "Count": 1,
+    "Description": "Odd Logistics",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 200,
+    "Id": 69,
+    "Count": 1,
+    "Description": "OddDZ Mine Operation",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 201,
+    "Id": 33,
+    "Count": 11,
+    "Description": "Odd-UGMining: FULL ",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 202,
+    "Id": 51,
+    "Count": 1,
+    "Description": "OddUGP Construction",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 203,
+    "Id": 157,
+    "Count": 3,
+    "Description": "Premium DS PM/NS AM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 204,
+    "Id": 26,
+    "Count": 5,
+    "Description": "THUR DS PM/NS AM",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 205,
+    "Id": 97,
+    "Count": 2,
+    "Description": "3/4 EO-OE",
+    "DayName": "Monday"
+  },
+  {
+    "No": 206,
+    "Id": 19,
+    "Count": 1,
+    "Description": "7/7/7 EO",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 207,
+    "Id": 23,
+    "Count": 1,
+    "Description": "AM/AM KB BUS",
+    "DayName": "Friday"
+  },
+  {
+    "No": 208,
+    "Id": 21,
+    "Count": 1,
+    "Description": "Bluefin E UB AM/PM",
+    "DayName": "Friday"
+  },
+  {
+    "No": 209,
+    "Id": 107,
+    "Count": 5,
+    "Description": "CSS DZ ll/ll",
+    "DayName": "Friday"
+  },
+  {
+    "No": 210,
+    "Id": 107,
+    "Count": 38,
+    "Description": "CSS DZ ll/ll",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 211,
+    "Id": 107,
+    "Count": 4,
+    "Description": "CSS DZ ll/ll",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 212,
+    "Id": 107,
+    "Count": 9,
+    "Description": "CSS DZ ll/ll",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 213,
+    "Id": 122,
+    "Count": 1,
+    "Description": "DZ 7/7 even",
+    "DayName": "Monday"
+  },
+  {
+    "No": 214,
+    "Id": 3,
+    "Count": 79,
+    "Description": "E DZ TUE/WED",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 215,
+    "Id": 6,
+    "Count": 6,
+    "Description": "E PM IN/AM OUT",
+    "DayName": "Monday"
+  },
+  {
+    "No": 216,
+    "Id": 1,
+    "Count": 1,
+    "Description": "E. DS PM/NS AM",
+    "DayName": "Friday"
+  },
+  {
+    "No": 217,
+    "Id": 1,
+    "Count": 8,
+    "Description": "E. DS PM/NS AM",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 218,
+    "Id": 115,
+    "Count": 2,
+    "Description": "EveDZ Camps Services",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 219,
+    "Id": 131,
+    "Count": 1,
+    "Description": "Even All AM",
+    "DayName": "Friday"
+  },
+  {
+    "No": 220,
+    "Id": 121,
+    "Count": 4,
+    "Description": "EVEN AM IN/ PM OUT",
+    "DayName": "Monday"
+  },
+  {
+    "No": 221,
+    "Id": 15,
+    "Count": 1,
+    "Description": "Even to Odd Short 7/7",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 222,
+    "Id": 74,
+    "Count": 1,
+    "Description": "EvenMine Technical.S",
+    "DayName": "Monday"
+  },
+  {
+    "No": 223,
+    "Id": 50,
+    "Count": 1,
+    "Description": "EvenUGP Construction",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 224,
+    "Id": 31,
+    "Count": 230,
+    "Description": "Eve-UGMining: FULL",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 225,
+    "Id": 31,
+    "Count": 410,
+    "Description": "Eve-UGMining: FULL",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 226,
+    "Id": 55,
+    "Count": 3,
+    "Description": "Hybrid- Odd",
+    "DayName": "Friday"
+  },
+  {
+    "No": 227,
+    "Id": 5,
+    "Count": 3,
+    "Description": "KB Bus PM",
+    "DayName": "Saturday"
+  },
+  {
+    "No": 228,
+    "Id": 5,
+    "Count": 9,
+    "Description": "KB Bus PM",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 229,
+    "Id": 5,
+    "Count": 5,
+    "Description": "KB Bus PM",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 230,
+    "Id": 4,
+    "Count": 8,
+    "Description": "O DZ TUE/WED",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 231,
+    "Id": 4,
+    "Count": 1,
+    "Description": "O DZ TUE/WED",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 232,
+    "Id": 2,
+    "Count": 5,
+    "Description": "O. DS PM/NS AM",
+    "DayName": "Friday"
+  },
+  {
+    "No": 233,
+    "Id": 2,
+    "Count": 2,
+    "Description": "O. DS PM/NS AM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 234,
+    "Id": 132,
+    "Count": 1,
+    "Description": "Odd All AM",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 235,
+    "Id": 71,
+    "Count": 14,
+    "Description": "Odd C&SS",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 236,
+    "Id": 43,
+    "Count": 8,
+    "Description": "Odd Mine Operation",
+    "DayName": "Monday"
+  },
+  {
+    "No": 237,
+    "Id": 27,
+    "Count": 3,
+    "Description": "ODD56TEST_SHORT_ROSTER",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 238,
+    "Id": 27,
+    "Count": 6,
+    "Description": "ODD56TEST_SHORT_ROSTER",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 239,
+    "Id": 33,
+    "Count": 3,
+    "Description": "Odd-UGMining: FULL ",
+    "DayName": "Friday"
+  },
+  {
+    "No": 240,
+    "Id": 157,
+    "Count": 11,
+    "Description": "Premium DS PM/NS AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 241,
+    "Id": 153,
+    "Count": 4,
+    "Description": "Premium in/AM out/PM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 242,
+    "Id": 52,
+    "Count": 1,
+    "Description": "SIS Odd",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 243,
+    "Id": 60,
+    "Count": 74,
+    "Description": "Surface Even UGMining",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 244,
+    "Id": 143,
+    "Count": 1,
+    "Description": "4/3- 3/4 Even AM-PM",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 245,
+    "Id": 85,
+    "Count": 6,
+    "Description": "7/7 even",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 246,
+    "Id": 100,
+    "Count": 2,
+    "Description": "7/7/7 EO-AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 247,
+    "Id": 18,
+    "Count": 2,
+    "Description": "7/7/7 OE",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 248,
+    "Id": 111,
+    "Count": 4,
+    "Description": "Crane Rigging DZ",
+    "DayName": "Monday"
+  },
+  {
+    "No": 249,
+    "Id": 107,
+    "Count": 18,
+    "Description": "CSS DZ ll/ll",
+    "DayName": "Monday"
+  },
+  {
+    "No": 250,
+    "Id": 3,
+    "Count": 33,
+    "Description": "E DZ TUE/WED",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 251,
+    "Id": 1,
+    "Count": 6,
+    "Description": "E. DS PM/NS AM",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 252,
+    "Id": 41,
+    "Count": 11,
+    "Description": "EveDZ Mine Operation",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 253,
+    "Id": 131,
+    "Count": 1,
+    "Description": "Even All AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 254,
+    "Id": 66,
+    "Count": 1,
+    "Description": "Even DZ Logistics",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 255,
+    "Id": 66,
+    "Count": 1,
+    "Description": "Even DZ Logistics",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 256,
+    "Id": 15,
+    "Count": 1,
+    "Description": "Even to Odd Short 7/7",
+    "DayName": "Monday"
+  },
+  {
+    "No": 257,
+    "Id": 34,
+    "Count": 1,
+    "Description": "Eve-OT SIS DZ",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 258,
+    "Id": 31,
+    "Count": 308,
+    "Description": "Eve-UGMining: FULL",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 259,
+    "Id": 5,
+    "Count": 20,
+    "Description": "KB Bus PM",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 260,
+    "Id": 5,
+    "Count": 27,
+    "Description": "KB Bus PM",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 261,
+    "Id": 7,
+    "Count": 5,
+    "Description": "O. AM IN/PM OUT",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 262,
+    "Id": 132,
+    "Count": 1,
+    "Description": "Odd All AM",
+    "DayName": "Monday"
+  },
+  {
+    "No": 263,
+    "Id": 120,
+    "Count": 1,
+    "Description": "ODD AM IN/PM OUT",
+    "DayName": "Monday"
+  },
+  {
+    "No": 264,
+    "Id": 71,
+    "Count": 1,
+    "Description": "Odd C&SS",
+    "DayName": "Monday"
+  },
+  {
+    "No": 265,
+    "Id": 43,
+    "Count": 2,
+    "Description": "Odd Mine Operation",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 266,
+    "Id": 43,
+    "Count": 1,
+    "Description": "Odd Mine Operation",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 267,
+    "Id": 43,
+    "Count": 7,
+    "Description": "Odd Mine Operation",
+    "DayName": "Wednesday"
+  },
+  {
+    "No": 268,
+    "Id": 117,
+    "Count": 2,
+    "Description": "OddDZ Camps Services",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 269,
+    "Id": 33,
+    "Count": 71,
+    "Description": "Odd-UGMining: FULL ",
+    "DayName": "Monday"
+  },
+  {
+    "No": 270,
+    "Id": 157,
+    "Count": 1,
+    "Description": "Premium DS PM/NS AM",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 271,
+    "Id": 52,
+    "Count": 1,
+    "Description": "SIS Odd",
+    "DayName": "Thursday"
+  },
+  {
+    "No": 272,
+    "Id": 72,
+    "Count": 2,
+    "Description": "Surface Even UG DZ",
+    "DayName": "Tuesday"
+  },
+  {
+    "No": 273,
+    "Id": 60,
+    "Count": 203,
+    "Description": "Surface Even UGMining",
+    "DayName": "Friday"
+  },
+  {
+    "No": 274,
+    "Id": 60,
+    "Count": 22,
+    "Description": "Surface Even UGMining",
+    "DayName": "Sunday"
+  },
+  {
+    "No": 275,
+    "Id": 62,
+    "Count": 11,
+    "Description": "Surface Odd UGMining",
+    "DayName": "Friday"
+  },
+  {
+    "No": 276,
+    "Id": 62,
+    "Count": 6,
+    "Description": "Surface Odd UGMining",
+    "DayName": "Tuesday"
+  }
+]

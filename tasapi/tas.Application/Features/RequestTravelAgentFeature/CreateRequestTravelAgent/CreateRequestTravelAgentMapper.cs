@@ -1,0 +1,18 @@
+﻿using AutoMapper;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using tas.Domain.Entities;
+
+namespace tas.Application.Features.RequestTravelAgentFeature.CreateRequestTravelAgent
+{
+    public sealed class CreateRequestTravelAgentMapper : Profile
+    {
+        public CreateRequestTravelAgentMapper()
+        {
+            CreateMap<CreateRequestTravelAgentRequest, RequestTravelAgent>();
+        }
+    }
+}

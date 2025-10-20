@@ -1,0 +1,28 @@
+2025-05-10 10:42:42.356 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 322
+2025-05-10 10:42:44.879 +08:00  ERR  Failed to send batch 1/25System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 207
+
+2025-05-10 10:42:44.960 +08:00  ERR  Response status code does not indicate success: 500 (Internal Server Error).
+2025-05-10 10:45:19.223 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 322
+2025-05-10 10:45:21.676 +08:00  ERR  Failed to send batch 1/96System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 207
+
+2025-05-10 10:45:21.753 +08:00  ERR  Response status code does not indicate success: 500 (Internal Server Error).
+2025-05-10 10:45:46.143 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 322
+2025-05-10 10:52:57.417 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----ERROR----------System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.SendEmptyData(String root) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 322
+2025-05-10 10:53:01.682 +08:00  ERR  Failed to send batch 1/96System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at Persistence.Repositories.HotDeskRepository.EmployeeSendData(EmployeeSendRequest request, CancellationToken cancellationToken) in D:\00 Fractal\Development\OT\V8\tas.IntegrationAPI\tas.IntegrationAPI\Persistence\Repositories\HotDeskRepository.cs:line 207
+
+2025-05-10 10:53:01.752 +08:00  ERR  Response status code does not indicate success: 401 (Unauthorized).
+2025-05-10 10:54:57.438 +08:00  ERR  HOTDESK EMPLOYEE EMPTY DATA SENT-----SUCCESS----------{}

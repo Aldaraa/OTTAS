@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SMBSu5UNIs7yuUPPRuu+OHu2Xd9ngwuL+4xNbGebhI8=",
+  "Source": "tas.IntegrationAPI",
+  "BasePath": "_content/tas.IntegrationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

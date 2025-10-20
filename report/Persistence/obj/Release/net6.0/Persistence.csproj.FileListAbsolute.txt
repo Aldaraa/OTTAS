@@ -1,0 +1,17 @@
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\bin\Release\net6.0\Persistence.deps.json
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\bin\Release\net6.0\Persistence.dll
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\bin\Release\net6.0\Persistence.pdb
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\bin\Release\net6.0\Application.dll
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\bin\Release\net6.0\Domain.dll
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\bin\Release\net6.0\Application.pdb
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\bin\Release\net6.0\Domain.pdb
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\Persistence.csproj.AssemblyReference.cache
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\Persistence.AssemblyInfoInputs.cache
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\Persistence.AssemblyInfo.cs
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\Persistence.csproj.CoreCompileInputs.cache
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\Persistence.csproj.CopyComplete
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\Persistence.dll
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\refint\Persistence.dll
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\Persistence.pdb
+E:\00 Fractal\Development\OT\tas.ReportAPI\Persistence\obj\Release\net6.0\ref\Persistence.dll

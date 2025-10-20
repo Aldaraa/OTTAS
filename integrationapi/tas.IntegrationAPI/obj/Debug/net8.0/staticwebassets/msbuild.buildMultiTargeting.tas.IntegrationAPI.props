@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\tas.IntegrationAPI.props" />
+</Project>

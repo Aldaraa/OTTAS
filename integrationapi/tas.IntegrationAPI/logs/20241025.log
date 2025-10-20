@@ -1,0 +1,64 @@
+2024-10-25 11:43:44.773 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 11:43:44.796 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 11:43:51.171 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 11:43:51.171 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 11:53:44.015 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 11:53:44.015 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 11:53:49.810 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 11:53:49.815 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 12:03:43.961 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 12:03:43.961 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 12:03:45.775 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 12:03:45.775 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 12:13:44.074 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 12:13:44.074 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 12:13:45.810 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 12:13:45.810 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 12:23:43.921 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 12:23:43.921 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 12:23:44.788 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 12:23:44.788 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 12:33:43.930 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 12:33:43.930 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 12:33:44.720 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 12:33:44.721 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 12:43:43.934 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 12:43:43.935 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 12:43:44.728 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 12:43:44.729 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 12:53:43.949 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 12:53:43.953 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 12:53:44.747 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 12:53:44.748 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 13:03:44.294 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 13:03:44.295 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 13:03:45.088 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 13:03:45.089 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 13:13:43.952 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 13:13:43.953 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 13:13:44.762 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 13:13:44.762 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 13:23:43.949 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 13:23:43.949 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 13:23:44.756 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 13:23:44.757 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 13:33:43.988 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 13:33:43.988 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 13:33:44.794 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 13:33:44.794 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 13:43:43.931 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 13:43:43.931 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 13:43:45.439 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 13:43:45.439 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 13:53:43.970 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 13:53:43.970 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 13:53:44.849 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 13:53:44.850 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 14:03:43.960 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 14:03:43.961 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 14:03:45.679 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 14:03:45.679 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------
+2024-10-25 14:13:44.186 +08:00  ERR  OTINFO TRANSPORT EMPTY DATA SENT-----SUCCESS----------{"status":"ok","code":"200","msg":"huselt amjilttai! Empty hiisen."}
+2024-10-25 14:13:44.186 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----BEGIN----------
+2024-10-25 14:13:45.005 +08:00  ERR  Batch 1/1 sent. API response: {"status":"ok","code":"200","msg":"huselt amjilttai!","count":"111"}
+2024-10-25 14:13:45.005 +08:00  ERR  OTINFO TRANSPORT DATA SENT-----END----------

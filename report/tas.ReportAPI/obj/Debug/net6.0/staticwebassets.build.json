@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8CyKEVmKG+4cH8/Szb3xsfJ6YrRb+7gjh3nn8wEZCEA=",
+  "Source": "tas.ReportAPI",
+  "BasePath": "_content/tas.ReportAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

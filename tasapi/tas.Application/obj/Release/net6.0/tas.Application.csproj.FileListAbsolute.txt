@@ -1,0 +1,15 @@
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\bin\Release\net6.0\tas.Application.deps.json
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\bin\Release\net6.0\tas.Application.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\bin\Release\net6.0\tas.Application.pdb
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\bin\Release\net6.0\tas.Domain.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\bin\Release\net6.0\tas.Domain.pdb
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\tas.Application.csproj.AssemblyReference.cache
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\tas.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\tas.Application.AssemblyInfoInputs.cache
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\tas.Application.AssemblyInfo.cs
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\tas.Application.csproj.CoreCompileInputs.cache
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\tas.Application.csproj.CopyComplete
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\tas.Application.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\refint\tas.Application.dll
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\tas.Application.pdb
+E:\00 Fractal\Development\OT\code\tas.WebAPI\tas.Application\obj\Release\net6.0\ref\tas.Application.dll

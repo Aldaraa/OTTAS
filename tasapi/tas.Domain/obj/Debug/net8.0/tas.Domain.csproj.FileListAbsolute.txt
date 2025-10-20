@@ -1,0 +1,13 @@
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\bin\Debug\net8.0\tas.Domain.deps.json
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\bin\Debug\net8.0\tas.Domain.dll
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\bin\Debug\net8.0\tas.Domain.pdb
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\tas.Domain.csproj.AssemblyReference.cache
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\tas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\tas.Domain.AssemblyInfoInputs.cache
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\tas.Domain.AssemblyInfo.cs
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\tas.Domain.csproj.CoreCompileInputs.cache
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\tas.Domain.sourcelink.json
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\tas.Domain.dll
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\refint\tas.Domain.dll
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\tas.Domain.pdb
+D:\00 Fractal\Development\OT\V8\tas.WebAPI\tas.Domain\obj\Debug\net8.0\ref\tas.Domain.dll

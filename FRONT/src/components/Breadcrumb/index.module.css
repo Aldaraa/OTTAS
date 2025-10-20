@@ -1,0 +1,11 @@
+.breadcrumb{
+  position: fixed;
+  z-index: 40;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(209, 213, 219);
+  top: var(--header-height);
+  margin-top: 10px;
+}
